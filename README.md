@@ -1,2 +1,2 @@
-# venoil-energia
-venoil page
+-pnpm i
+-pnpm run dev
