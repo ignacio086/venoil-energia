@@ -1,5 +1,4 @@
 "use client";
-import { Noticia } from "@/app/types/tipos";
 import { TarjNot, TarjNotMini } from "../../NotYac";
 import {
   Carousel,
