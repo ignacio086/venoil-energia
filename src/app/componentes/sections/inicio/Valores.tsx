@@ -52,7 +52,7 @@ export default function Valores() {
           <div className="rounded-full bg-white w-96 h-96 p-6">
             <div className="rounded-full bg-gray-700 w-full p-6 h-full">
               <div
-                className={`rounded-full bg-[url("/image.png")] bg-cover bg-center w-full h-full`}
+                className={`rounded-full bg-[url("/trab.png")] bg-cover bg-center w-full h-full`}
               ></div>
             </div>
           </div>

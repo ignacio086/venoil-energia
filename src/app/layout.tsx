@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Nav from "./componentes/Nav";
 import Footer from "./componentes/Footer";
-import { mont, pop } from "./fonts/Fonts";
+import {  pop } from "./fonts/Fonts";
 
 export const metadata: Metadata = {
   title: "Venoil Energia",
