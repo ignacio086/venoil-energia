@@ -18,7 +18,8 @@ export default function CardYac({
       } bg-white shadow-[rgba(7,_65,_210,_0.2)_0px_9px_30px]`}
     >
       <div
-        className={`bg-[url("/image2.png")] bg-cover w-24 h-12 lg:w-full lg:h-full rounded-md`}
+        className={` bg-cover bg-center w-24 h-12 lg:w-full lg:h-full rounded-md`}
+        style={{ backgroundImage: `url("${imagen}")` }}
       ></div>
       <div className=" w-full gap-2 flex flex-col items-center justify-center">
         <h1>{nombre}</h1>

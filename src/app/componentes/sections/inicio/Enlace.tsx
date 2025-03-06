@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function Enlace() {
   return (
     <div>
-      <div className="w-screen bg-gradient-to-r from-verde to-azul flex justify-center h-24">
-        <div className="w-0 h-0 border-l-[50px] border-l-transparent border-t-[75px] border-t-white border-r-[50px] border-r-transparent"></div>
+      <div className="w-screen bg-gradient-to-r from-verde to-azul flex justify-center h-12">
+        <div className="w-0 h-0 border-l-[25px] border-l-transparent border-t-[37px] border-t-white border-r-[25px] border-r-transparent"></div>
       </div>
       <div className="w-screen flex flex-col lg:flex-row items-center justify-around h-52 bg-gradient-to-r from-verde to-azul">
         <div className=" p-2 lg:p-0 w-full lg:text-left text-center lg:w-1/3 text-white">
@@ -17,7 +17,7 @@ export default function Enlace() {
             trabajo hacia la mejora continua{" "}
           </p>
         </div>
-        <ButtonR texto="GESTION INTEGRADA" dir="" color="blanco" />
+        <ButtonR texto="GESTION INTEGRADA" dir="/gestion" color="blanco" />
       </div>
       <div className={`w-auto bg-fixed bg-[url("/image1.png")] bg-cover `}>
         <div className="bg-white/80 w-screen h-full flex   lg:flex-row p-4 lg:p-24 ">
@@ -30,7 +30,7 @@ export default function Enlace() {
               adelante nuevos desafios
             </p>
             <div className="w-full flex items-center justify-center">
-            <ButtonR texto="TRABAJA CON NOSOTROS" color="verde" dir="" />
+            <ButtonR texto="TRABAJA CON NOSOTROS" color="verde" dir="/workWithUs" />
             </div>
           </div>
           <div className="flex items-center w-full lg:w-2/3 justify-center">

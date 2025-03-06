@@ -6,7 +6,7 @@ export default function Presentacion() {
       <div className=" w-full lg:w-1/2 h-full flex items-end  ">
         <div
           style={{ bottom: "-15vh", right: "5vw" }}
-          className={`relative rounded-full bg-[url("/casco.jpg")] bg-fixed w-full h-full bg-cover bg-center`}
+          className={`relative rounded-full bg-[url("/casco.jpg")]  w-full h-full bg-cover bg-center`}
         >
           <div className="w-full h-full bg-verde/30 rounded-full"></div>
         </div>
