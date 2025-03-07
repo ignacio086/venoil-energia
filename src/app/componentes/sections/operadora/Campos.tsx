@@ -14,7 +14,7 @@ export default function Campos() {
       id: 2,
       nombre: "Piedras Coloradas",
       descripcion: campos.piedrascoloradas,
-      imagen: "/image.png",
+      imagen: "/IMG_4393 B&N.jpg",
     },
     {
       id: 3,

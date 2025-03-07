@@ -1,3 +1,4 @@
+import { popt } from "@/app/fonts/Fonts";
 import CardYac from "../../CardYac";
 import { Yacimiento } from "@/app/types/tipos";
 import textos from "@/lib/textos";
@@ -14,7 +15,7 @@ export default function Campos() {
       id: 2,
       nombre: "Piedras Coloradas",
       descripcion: campos.piedrascoloradas,
-      imagen: "/image.png",
+      imagen: "/IMG_4393 B&N.jpg",
     },
     {
       id: 3,
@@ -24,7 +25,7 @@ export default function Campos() {
     },
     {
       id: 4,
-      nombre: "Chimenaike",
+      nombre: "Chimen aike",
       descripcion: campos.chimenaike,
       imagen: "/chimenaike.png",
     },
@@ -48,8 +49,9 @@ export default function Campos() {
     },
   ];
   return (
-    <section className="w-screen h-auto flex items-center justify-center p-2 lg:p-24 gap-2 lg:gap-5 bg-white">
-      <div className="grid grid-cols-2 lg:grid-cols-3 w-full h-auto gap-2 lg:gap-5">
+    <section className="w-screen h-auto flex flex-col items-center justify-center p-2 lg:p-24 gap-2 lg:gap-5 bg-white">
+      <h1 className=" text-xl lg:text-4xl text-verde" style={popt.style}>Campos Operados</h1>
+      <div className="grid grid-cols-1 lg:grid-cols-3 w-full h-auto gap-12 lg:gap-5">
         {cards.map((y, index) => {
           const isLastRowSingle =
             cards.length % 3 === 1 && index === cards.length - 1;

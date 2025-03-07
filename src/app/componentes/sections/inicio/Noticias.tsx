@@ -17,7 +17,7 @@ export default function Noticias() {
       style={pop.style}
       className="flex flex-col items-center justify-center gap-2 p-2 lg:p-12 w-screen h-auto"
     >
-      <h1 className="text-5xl text-center text-verde" style={popt.style}>
+      <h1 className="text-xl lg:text-4xl text-center text-verde" style={popt.style}>
         NUESTRAS NOTICIAS
       </h1>
       <div className="w-full lg:w-3/5 flex items-center justify-center">

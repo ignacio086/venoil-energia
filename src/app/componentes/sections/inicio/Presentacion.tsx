@@ -18,7 +18,6 @@ export default function Presentacion() {
         <h1 className=" text-xl lg:text-6xl">
           Transformamos <span className="text-verde">desafios</span> en <span className="text-verde">oportunidades</span>.
         </h1>
-        <h1 className=" text-xl lg:text-6xl">VENOIL ENERGIA</h1>
         <p className="text-sm lg:text-xl">
           Innovando para un futuro <span className="text-verde">sostenible.</span>
         </p>
