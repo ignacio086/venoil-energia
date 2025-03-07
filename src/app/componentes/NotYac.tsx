@@ -28,7 +28,7 @@ export function TarjNotMini({ id, titulo, textoF,imgF }: NoticiaP) {
     <div
       key={id}
       style={pop.style}
-      className={`h-72 text-white rounded-xl lg:p-2 flex flex-col w-full gap-0 lg:gap-2 bg-verde lg:bg-white shadow-[rgba(7,_65,_210,_0.2)_0px_9px_30px]`}
+      className={`h-72 text-white rounded-xl flex flex-col w-full  bg-verde  shadow-[rgba(7,_65,_210,_0.2)_0px_9px_30px]`}
     >
       <div
         style={{ backgroundImage: `url("${imgF}")` }}
