@@ -6,7 +6,7 @@ export default function Campos() {
   const cards: Yacimiento[] = [
     {
       id: 1,
-      nombre: "El Manzano",
+      nombre: "El Manzano Oeste",
       descripcion: campos.manzano,
       imagen: "/IMG-20250228-WA0033.jpg",
     },
@@ -24,7 +24,7 @@ export default function Campos() {
     },
     {
       id: 4,
-      nombre: "Chimenaike",
+      nombre: "Chimen aike",
       descripcion: campos.chimenaike,
       imagen: "/chimenaike.png",
     },
@@ -56,7 +56,7 @@ export default function Campos() {
         if (id >= 3) return <div></div>;
         return (
           <div className=" flex flex-col gap-12" key={card.id}>
-            <div className={`flex flex-col-reverse items-center justify-center ${id%2==0?"lg:flex-row":"lg:flex-row-reverse"}`}>
+            <div className={`flex flex-col-reverse items-center justify-center ${id%2==0?"lg:flex-row":"lg:flex-row-reverse "}`}>
               <div style={{ backgroundImage: `url("${card.imagen}")` }} className={`bg-cover aspect-square w-1/2 h-1/2 rounded-full bg-no-repeat bg-center flex items-center justify-center`}></div>
               <div className="w-full p-2 lg:w-1/2 gap-12 flex flex-col items-center justify-center">
                 <h1
@@ -66,13 +66,13 @@ export default function Campos() {
                   {card.nombre}
                 </h1>
                 <div className="h-2 w-3/4 bg-verde rounded-xl"></div>
-                <p className="w-3/4 text-azul" style={pop.style}>
+                <p className={`${id%2==0?"lg:text-end":" "} w-3/4 text-azul`}  style={pop.style}>
                   {card.descripcion}
                 </p>
               </div>
             </div>
             <div className={`bg-[url("/image1.png")] bg-cover aspect-square w-screen h-32 bg-no-repeat bg-center flex items-center justify-center`}>
-                <img src="isotipo.png" alt="" className="object-contain rounded-full w-3/4 h-3/4 " />
+                <img src="isotipo-02.png" alt="" className="object-contain rounded-full w-3/4 h-3/4 " />
             </div>
           </div>
         );
@@ -94,13 +94,13 @@ export default function Campos() {
                   {card.nombre}
                 </h1>
                 <div className="h-2 w-3/4 bg-verde rounded-xl"></div>
-                <p className="w-3/4 text-azul" style={pop.style}>
+                <p className={`${id%2==0?"lg:text-end":" "} w-3/4 text-azul`} style={pop.style}>
                   {card.descripcion}
                 </p>
               </div>
             </div>
             <div className={`bg-[url("/image1.png")] bg-cover aspect-square w-screen h-32 bg-no-repeat bg-center flex items-center justify-center`}>
-                <img src="isotipo.png" alt="" className="object-contain rounded-full w-3/4 h-3/4 " />
+                <img src="isotipo-02.png" alt="" className="object-contain rounded-full w-3/4 h-3/4 " />
             </div>
           </div>
         );

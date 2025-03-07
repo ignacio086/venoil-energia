@@ -7,7 +7,7 @@ export default function Campos() {
   const cards: Yacimiento[] = [
     {
       id: 1,
-      nombre: "El Manzano",
+      nombre: "El Manzano Oeste",
       descripcion: campos.manzano,
       imagen: "/IMG-20250228-WA0033.jpg",
     },

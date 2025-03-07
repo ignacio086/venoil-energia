@@ -19,5 +19,6 @@ export const pop = localFont({
         weight: "400",
         style: "light",
       },
+      
     ],
   });

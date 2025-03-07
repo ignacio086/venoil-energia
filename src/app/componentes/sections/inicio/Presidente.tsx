@@ -14,7 +14,7 @@ export default function Presidente() {
           <h1 style={popt.style} className="text-lg lg:text-xl flex"> <span ><TiInfo className="p-2 bg-verde text-white w-8 h-8 rounded-full"/></span>Perfil de Gustavo Naves</h1>
           {text.map((e, i) => {
             return (
-              <p key={i} className="text-xs lg:text-sm">
+              <p key={i} style={popt.style} className="text-xs text-justify lg:text-sm">
                 {e}
               </p>
             );

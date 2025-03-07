@@ -30,7 +30,7 @@ export default function Pilares() {
   ];
   return (
     <div className="w-screen flex flex-col gap-8 items-center justify-center p-2 lg:p-24">
-      <h1 className=" text-lg lg:text-6xl text-verde" style={popt.style}>
+      <h1 className=" text-lg lg:text-4xl text-verde" style={popt.style}>
         Nuestros Pilares
       </h1>
       {pilares.map((pilar, id) => {
