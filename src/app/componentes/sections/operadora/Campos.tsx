@@ -72,7 +72,7 @@ export default function Campos() {
               </div>
             </div>
             <div className={`bg-[url("/image1.png")] bg-cover aspect-square w-screen h-32 bg-no-repeat bg-center flex items-center justify-center`}>
-                <img src="isotipo-02.png" alt="" className="object-contain rounded-full w-3/4 h-3/4 " />
+                <img src="iso.png" alt="" className="object-contain rounded-full w-3/4 h-3/4 " />
             </div>
           </div>
         );
@@ -100,7 +100,7 @@ export default function Campos() {
               </div>
             </div>
             <div className={`bg-[url("/image1.png")] bg-cover aspect-square w-screen h-32 bg-no-repeat bg-center flex items-center justify-center`}>
-                <img src="isotipo-02.png" alt="" className="object-contain rounded-full w-3/4 h-3/4 " />
+                <img src="iso.png" alt="" className="object-contain rounded-full w-3/4 h-3/4 " />
             </div>
           </div>
         );
