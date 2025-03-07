@@ -16,7 +16,7 @@ export default function Presentacion() {
         className="w-auto text-white  p-24 rounded-xl flex flex-col gap-5 items-center text-center justify-center h-auto z-10 "
       >
         <h1 className=" text-xl lg:text-6xl">
-          Transformamos <span className="text-verde">desafios</span> en <span className="text-verde">oportunidades</span>.
+          Transformamos <span className="text-verde">desafíos</span> en <span className="text-verde">oportunidades</span>.
         </h1>
         <p className="text-sm lg:text-xl">
           Innovando para un futuro <span className="text-verde">sostenible.</span>

@@ -8,7 +8,7 @@ export default function Campos() {
       id: 1,
       nombre: "El Manzano",
       descripcion: campos.manzano,
-      imagen: "/Emesa-Vega-Grande-4.jpg",
+      imagen: "/IMG-20250228-WA0033.jpg",
     },
     {
       id: 2,
@@ -44,7 +44,7 @@ export default function Campos() {
       id: 7,
       nombre: "Estancia La Maggie",
       descripcion: campos.maggie,
-      imagen: "/condor.jpeg",
+      imagen: "/Imagen de WhatsApp 2025-02-12 a las 15.27.58_c98b8082.jpg",
     },
   ];
   return (

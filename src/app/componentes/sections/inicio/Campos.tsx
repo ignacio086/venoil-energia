@@ -9,7 +9,7 @@ export default function Campos() {
       id: 1,
       nombre: "El Manzano",
       descripcion: campos.manzano,
-      imagen: "/Emesa-Vega-Grande-4.jpg",
+      imagen: "/IMG-20250228-WA0033.jpg",
     },
     {
       id: 2,
@@ -45,12 +45,12 @@ export default function Campos() {
       id: 7,
       nombre: "Estancia La Maggie",
       descripcion: campos.maggie,
-      imagen: "/condor.jpeg",
+      imagen: "/Imagen de WhatsApp 2025-02-12 a las 15.27.58_c98b8082.jpg",
     },
   ];
   return (
     <section className="w-screen h-auto flex flex-col items-center justify-center p-2 lg:p-24 gap-2 lg:gap-5 bg-white">
-      <h1 className=" text-xl lg:text-4xl text-verde" style={popt.style}>Campos Operados</h1>
+      <h1 className=" text-xl lg:text-4xl text-verde mb-12" style={popt.style}>Campos Operados</h1>
       <div className="grid grid-cols-1 lg:grid-cols-3 w-full h-auto gap-12 lg:gap-5">
         {cards.map((y, index) => {
           const isLastRowSingle =
