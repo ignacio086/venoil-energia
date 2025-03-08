@@ -10,6 +10,7 @@ export interface Yacimiento {
   descripcion: string;
   imagen?: string;
   last?: boolean;
+  direc?:string;
 }
 export interface NoticiaP {
   id: string;

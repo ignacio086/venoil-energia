@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased overflow-x-hidden`} style={pop.style}>
+      <body className={`antialiased overflow-x-hidden scroll-smooth`} style={pop.style}>
         <Nav />
         {children}
         <Footer />

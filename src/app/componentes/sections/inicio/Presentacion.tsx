@@ -22,8 +22,8 @@ export default function Presentacion() {
           Innovando para un futuro <span className="text-verde">sostenible.</span>
         </p>
         <div className="w-full h-full flex item-center justify-center gap-5">
-          <ButtonR texto="VER MAS" color="blanco" dir="/" />
-          <ButtonR texto="VISITAR" color="blanco" dir="/" />
+          <ButtonR texto="VER MAS" color="blanco" dir="/operadora" />
+          <ButtonR texto="VISITAR" color="blanco" dir="/gestion" />
         </div>
       </div>
     </main>

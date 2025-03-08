@@ -16,7 +16,7 @@ export default function Presentacion() {
         </h1>
       </div>
       <div className="flex flex-col lg:flex-row h-2/3 justify-around items-center gap-6">
-        <p className="w-3/4 lg:w-1/3 text-white" style={pop.style}>
+        <p className="w-3/4 lg:w-1/3 text-white text-lg" style={pop.style}>
           Somos una empresa líder en el gerenciamiento integral de yacimientos
           petroleros, dedicados a potenciar la eficiencia operativa y la
           rentabilidad de cada proyecto.
@@ -30,10 +30,10 @@ export default function Presentacion() {
         <div
           className={`rounded-xl bg-[url("/ayb.jpg")] bg-cover aspect-square w-1/2 h-full flex items-end justify-center flex-col bg-no-repeat bg-center`}
         >
-          <div className=" lg:w-32 lg:h-12 w-16 h-6 bg-verde mr-1 shadow-[rgba(0,_0,_0,_0.8)_0px_9px_20px] bottom-10 z-10 relative left-8 lg:left-10 flex items-center lg:bottom-20">
+          <div className=" lg:w-40 lg:h-16 w-16 h-6 bg-verde mr-1 shadow-[rgba(0,_0,_0,_0.8)_0px_9px_20px] bottom-10 z-10 relative left-8 lg:left-10 flex items-center lg:bottom-20">
             <img className="lg:w-12 lg:h-12 w-6 h-6" src="isotipo.png"></img>
           </div>
-          <div className="w-0 h-0 border-l-[2px] border-r-[7px] border-t-[15px] lg:border-l-[5px] relative left-8 bottom-10 lg:left-10 lg:border-r-[15px] lg:border-t-[30px] lg:bottom-20 border-l-transparent mr-2 border-r-transparent border-t-verde transform -skew-x-12"></div>
+          <div className="w-0 h-0 border-l-[2px] border-r-[7px] border-t-[15px] lg:border-l-[10px] relative left-8 bottom-10 lg:left-10 lg:border-r-[30px] lg:border-t-[60px] lg:bottom-20 border-l-transparent mr-2 border-r-transparent border-t-verde transform -skew-x-12"></div>
         </div>
       </div>
     </div>

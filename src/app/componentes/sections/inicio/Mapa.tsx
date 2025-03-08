@@ -1,26 +1,41 @@
 import { popt } from "@/app/fonts/Fonts";
-import MapaF from "../../MapaF";
+import InteractMap from "../../InteractMap";
 
 export default function Mapa() {
   return (
-    <div className="h-auto flex flex-col-reverse lg:flex-row items-center justify-center gap-8 w-auto p-2">
-      <MapaF />
-      <div className="flex  lg:flex-col gap-4">
-        <span className="w-32 h-2 lg:w-2 lg:h-72 rounded-xl bg-slate-500"></span>
-        <span className="w-16 h-2 lg:w-2 lg:h-32 rounded-xl bg-slate-500"></span>
-        <span className="w-32 h-2 lg:w-2 lg:h-72 rounded-xl bg-slate-500"></span>
-      </div>
-      <div className="w-full flex flex-col items-center text-center lg:items-start lg:text-left justify-center h-full">
-        <div
-          style={popt.style}
-          className="bg-gradient-to-br bg-clip-text from-verde to-azul"
-        >
-          <h1 className="text-2xl lg:text-8xl text-transparent">
-            NUESTRA PRESENCIA EN EL PAIS
-          </h1>
+    <section className="p-4">
+      <div className="flex items-center justify-center gap-20">
+        <InteractMap />
+
+        <div>
+          <div className="w-1 h-72 bg-[#D9D9D9] rounded-2xl"></div>
+          <div className="w-1 h-6 bg-[#D9D9D9] rounded-2xl my-3"></div>
+          <div className="w-1 h-72 bg-[#D9D9D9] rounded-2xl"></div>
         </div>
-        <p className="text-sm lg:text-xl"> Haz click en las provincias y conoce nuestros puntos</p>
+
+        <div className="font-medium text-venoil-gray">
+          <h1 className="text-verde text-3xl font-semibold py-4">
+            Nuestro Presencia en el Pais
+          </h1>
+          <p className="py-3">
+            Contamos con operaciones estratégicas en diversos pozos petroleros
+            ubicados en Argentina, entre los cuales se destacan:
+          </p>
+
+          <div className="flex-col space-y-2">
+            <p>• El Manzano (San Rafael, Mendoza)</p>
+            <p>• Cañadón Salto (Río Gallegos, Santa Cruz)</p>
+            <p>• Cóndor (Río Gallegos, Santa Cruz)</p>
+            <p>• La Maggie (Río Gallegos, Santa Cruz)</p>
+            <p>• Chimen Aike (Río Gallegos, Santa Cruz)</p>
+          </div>
+
+          <p className="py-3">
+            Estas locaciones reflejan nuestro compromiso con el desarrollo
+            energético y la presencia activa en regiones clave del país.
+          </p>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }

@@ -10,42 +10,49 @@ export default function Campos() {
       nombre: "El Manzano Oeste",
       descripcion: campos.manzano,
       imagen: "/IMG-20250228-WA0033.jpg",
+      direc:"manzano"
     },
     {
       id: 2,
       nombre: "Piedras Coloradas",
       descripcion: campos.piedrascoloradas,
-      imagen: "/IMG_4393 B&N.jpg",
+      imagen: "/DJI_0010.jpg",
+      direc:"piedras"
     },
     {
       id: 3,
       nombre: "Cacheuta",
       descripcion: campos.cacheuta,
       imagen: "/ayb.jpg",
+      direc:"cacheuta"
     },
     {
       id: 4,
       nombre: "Chimen aike",
       descripcion: campos.chimenaike,
       imagen: "/chimenaike.png",
+      direc:"chimenaike"
     },
     {
       id: 5,
       nombre: "Condor",
       descripcion: campos.condor,
       imagen: "/1737451360116.jpeg",
+      direc:"condor"
     },
     {
       id: 6,
       nombre: "Cañadon Salto",
       descripcion: campos.canadonsalto,
       imagen: "/truck2.png",
+      direc:"salto"
     },
     {
       id: 7,
       nombre: "Estancia La Maggie",
       descripcion: campos.maggie,
       imagen: "/Imagen de WhatsApp 2025-02-12 a las 15.27.58_c98b8082.jpg",
+      direc:"maggie"
     },
   ];
   return (
@@ -63,6 +70,7 @@ export default function Campos() {
               descripcion={y.descripcion}
               imagen={y.imagen}
               last={isLastRowSingle}
+              direc={y.direc}
             />
           );
         })}

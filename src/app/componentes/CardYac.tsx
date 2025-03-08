@@ -8,6 +8,7 @@ export default function CardYac({
   descripcion,
   imagen,
   last,
+  direc
 }: Yacimiento) {
   return (
     <div
@@ -24,7 +25,7 @@ export default function CardYac({
       <div className=" p-2 w-full gap-2 flex flex-col items-center justify-center">
         <h1 className="text-azul" style={popt.style}>{nombre}</h1>
         <p className=" text-xs line-clamp-3">{descripcion}</p>
-        <ButtonR texto="Leer mas" color="verde" dir="" />
+        <ButtonR texto="Leer mas" color="verde" dir={`/operadora#${direc}`} />
       </div>
     </div>
   );
