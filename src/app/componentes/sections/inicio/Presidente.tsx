@@ -9,12 +9,12 @@ export default function Presidente() {
       <h1 className="text-verde text-center text-xl lg:text-4xl" style={popt.style}>
         Nuestro Presidente
       </h1>
-      <div className="flex flex-col lg:flex-row w-full lg:w-2/3 gap-5 justify items-center p-2 lg:p-24">
+      <div className="flex flex-col lg:flex-row w-full lg:w-2/3 gap-8 justify items-center p-2 lg:p-6">
         <div className="flex flex-col text-center lg:text-left gap-2">
-          <h1 style={popt.style} className="text-lg lg:text-xl flex"> <span ><TiInfo className="p-2 bg-verde text-white w-8 h-8 rounded-full"/></span>Perfil de Gustavo Naves</h1>
+          <h1 style={popt.style} className="text-lg lg:text-2xl flex"> <span ><TiInfo className="p-2 bg-verde text-white w-8 h-8 rounded-full"/></span>Perfil de Gustavo Naves</h1>
           {text.map((e, i) => {
             return (
-              <p key={i} style={popt.style} className="text-xs text-justify lg:text-sm">
+              <p key={i} style={popt.style} className="text-xs text-justify lg:text-lg">
                 {e}
               </p>
             );

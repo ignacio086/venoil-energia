@@ -25,6 +25,7 @@ export interface Valor {
   texto: string;
   imagen: string;
   id: number;
+  color:string;
 }
 
 export interface Positionpop {

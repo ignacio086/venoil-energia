@@ -1,41 +1,47 @@
 import { Valor } from "@/app/types/tipos";
 import Valyac from "../../ValYac";
 import { popt } from "@/app/fonts/Fonts";
-
+import { FaHeart } from "react-icons/fa";
 export default function Valores() {
   const val = [
     [
       {
         texto: "Liderazgo en todas las fases del proyecto",
-        imagen: "/Accounts-Group-Star-Rating--Streamline-Atlas.png",
+        imagen: "/Group 2.png",
         id: 1,
+        color:"verde",
       },
       {
         texto: "Transparencia en el desempeño",
-        imagen: "/Group 2.png",
+        imagen: "/Accounts-Group-Star-Rating--Streamline-Atlas.png",
         id: 2,
+        color:"azul",
       },
       {
         texto: "Pasion en cada tarea y nuevo desafío",
         imagen: "/Group32.png",
         id: 3,
+        color:"verde",
       },
     ],
     [
       {
         texto: "Respeto por las comunidades y el medio ambiente",
-        imagen: "/Group42.png",
+        imagen: "/Group5.png",
         id: 4,
+        color:"azul",
       },
       {
         texto: "Excelencia en todos los niveles de la organización",
-        imagen: "/Group5.png",
+        imagen: "/Group42.png",
         id: 5,
+        color:"verde",
       },
       {
         texto: "Integridad como base de todas nuestras decisiones",
         imagen: "/Group5.png",
         id: 6,
+        color:"azul",
       },
     ],
   ];
@@ -53,8 +59,8 @@ export default function Valores() {
               return Valyac(valor);
             })}
           </div>
-          <div className="hidden h-full lg:flex :w-1/3 items-center justify-center">
-            <div className="rounded-full bg-white w-96 h-96 p-6">
+          <div className="hidden h-full lg:flex w-1/3 items-center justify-center">
+            <div className="rounded-full bg-white w-full h-3/4 p-6">
               <div className="rounded-full bg-gray-700 w-full p-6 h-full">
                 <div
                   className={`rounded-full bg-[url("/trab.png")] bg-cover bg-center w-full h-full`}

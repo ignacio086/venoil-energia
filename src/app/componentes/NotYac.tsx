@@ -1,7 +1,14 @@
-import { pop } from "../fonts/Fonts";
 import { NoticiaP } from "../types/tipos";
 import { ButtonR } from "./ButtonR";
-
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+import { pop, popt } from "@/app/fonts/Fonts";
+import textos from "@/lib/textos";
 export function TarjNot({ id, titulo, textoF,imgF }: NoticiaP) {
   return (
     <div
@@ -28,14 +35,14 @@ export function TarjNotMini({ id, titulo, textoF,imgF }: NoticiaP) {
     <div
       key={id}
       style={pop.style}
-      className={`h-72 text-white rounded-xl flex flex-col w-full  bg-verde  shadow-[rgba(7,_65,_210,_0.2)_0px_9px_30px]`}
+      className={`h-3/4 text-white rounded-xl flex flex-col w-full  bg-verde  shadow-[rgba(7,_65,_210,_0.2)_0px_9px_30px]`}
     >
       <div
         style={{ backgroundImage: `url("${imgF}")` }}
         className={`bg-[url("/image2.png")] bg-center bg-cover w-full h-5/6 bg-white rounded-t-lg`}
       >
         <div className="w-full flex flex-col rounded-xl justify-around p-2 lg:p-12 h-full bg-gradient-to-b from-black/20 from-50% to-black/60">
-          <h1 className="text-lg lg:text-xl line-clamp-5 lg:line-clamp-2">{titulo}</h1>
+          <h1 className="text-lg lg:text-3xl   line-clamp-5 lg:line-clamp-none">{titulo}</h1>
           <p className="text-xs lg:text-sm line-clamp-2">{textoF}</p>
         </div>
       </div>
@@ -44,4 +51,31 @@ export function TarjNotMini({ id, titulo, textoF,imgF }: NoticiaP) {
       </div>
     </div>
   );
+}
+
+export function Tarj(){
+  const noticias =textos.noticias
+  return (
+    <div className="w-full lg:w-3/5 flex items-center justify-center">
+        <Carousel className="w-4/5 rounded-xl shadow-[rgba(7,_65,_210,_0.2)_0px_9px_30px]">
+          <CarouselContent key={20} className="p-0 lg:p-24">
+            {noticias.map((noticia) => {
+              return (
+                <CarouselItem key={noticia.id} className="">
+                  <TarjNot
+                    key={noticia.id}
+                    id={noticia.id}
+                    textoF={noticia.textoF}
+                    imgF={noticia.imgF}
+                    titulo={noticia.titulo}
+                  />
+                </CarouselItem>
+              );
+            })}
+          </CarouselContent>
+          <CarouselPrevious />
+          <CarouselNext />
+        </Carousel>
+      </div>
+  )
 }

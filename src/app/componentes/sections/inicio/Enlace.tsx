@@ -6,11 +6,11 @@ export default function Enlace() {
     <div>
       <section className="relative flex items-center justify-center bg-gradient-to-r from-verde to-azul text-white p-12 gap-16">
         <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 translate-y-1/2 w-0 h-0 border-l-[20px] border-l-transparent border-r-[20px] border-r-transparent border-t-[20px] border-t-white"></div>
-        <div className="w-[45%]">
-          <h1 className="text-2xl font-semibold">
+        <div className="w-[60%]">
+          <h1 className="text-2xl lg:text-3xl font-semibold">
             Nos enfocamos cada día en la excelencia operacional
           </h1>
-          <p className="text-sm">
+          <p className="text-sm lg:text-lg">
             Nuestro norte es brindar servicios de calidad, orientando nuestro
             trabajo hacia la mejora continua y la eficiencia operativa.
           </p>
