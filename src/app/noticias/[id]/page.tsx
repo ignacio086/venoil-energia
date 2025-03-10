@@ -1,9 +1,11 @@
+import { useLanguage } from "@/app/context/LanguageContext";
 import { popt } from "@/app/fonts/Fonts";
 import { NoticiaP } from "@/app/types/tipos";
 import textos from "@/lib/textos";
 import Image from "next/image";
 export default function Operadora({params}:{params:{id:string}}) {
-    let noticia:NoticiaP[] =textos.noticias.filter((e)=>{ return e.id==params.id})
+    const { language, toggleLanguage } = useLanguage();
+    let noticia:NoticiaP[] =textos[language].noticias.filter((e)=>{ return e.id==params.id})
   return (
     <article className="w-screen flex flex-col gap-12 p-12 lg:p-24 items-center justify-center">
         <header>
