@@ -1,13 +1,15 @@
+import { useLanguage } from "@/app/context/LanguageContext";
 import { popt } from "@/app/fonts/Fonts";
 import textos from "@/lib/textos";
 import Image from "next/image";
 import { TiInfo } from "react-icons/ti";
 export default function Presidente() {
-  const text = textos.inicio.presidente;
+  const { language } = useLanguage();
+  const text = textos[language].inicio.presidente;
   return (
     <div className="w-screen flex flex-col items-center justify-center h-auto text">
       <h1 className="text-verde text-center text-xl lg:text-4xl" style={popt.style}>
-        Nuestro Presidente
+        {language=='en'?'Our President':'Nuestro Presidente'}
       </h1>
       <div className="flex flex-col lg:flex-row w-full lg:w-2/3 gap-8 justify items-center p-2 lg:p-6">
         <div className="flex flex-col text-center lg:text-left gap-2">

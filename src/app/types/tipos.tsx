@@ -12,6 +12,14 @@ export interface Yacimiento {
   last?: boolean;
   direc?:string;
 }
+
+export type Language = 'es' | 'en';
+
+export interface LanguageContextProps {
+  language: Language;
+  toggleLanguage: () => void;
+}
+
 export interface NoticiaP {
   id: string;
   titulo: string;

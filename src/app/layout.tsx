@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Nav from "./componentes/Nav";
 import Footer from "./componentes/Footer";
-import {  pop } from "./fonts/Fonts";
+import { pop } from "./fonts/Fonts";
+import { LanguageProvider } from "./context/LanguageContext";
 
 export const metadata: Metadata = {
   title: "Venoil Energia",
@@ -16,13 +17,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased overflow-x-hidden scroll-smooth`} style={pop.style}>
-        <Nav />
-        {children}
-        <Footer />
-        <div className="bg-blue-950 text-white w-screen h-12 border-t-2 border-white  text-xs flex items-center justify-center">
-          © 2024. Todos los derechos reservados por Venoil S.A
-        </div>
+      <body
+        className={`antialiased overflow-x-hidden scroll-smooth`}
+        style={pop.style}
+      >
+        <LanguageProvider>
+          <Nav />
+          {children}
+          <Footer />
+          <div className="bg-blue-950 text-white w-screen h-12 border-t-2 border-white  text-xs flex items-center justify-center">
+            © 2024. Todos los derechos reservados por Venoil S.A
+          </div>
+        </LanguageProvider>
       </body>
     </html>
   );

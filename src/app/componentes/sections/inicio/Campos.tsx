@@ -2,8 +2,10 @@ import { popt } from "@/app/fonts/Fonts";
 import CardYac from "../../CardYac";
 import { Yacimiento } from "@/app/types/tipos";
 import textos from "@/lib/textos";
+import { useLanguage } from "@/app/context/LanguageContext";
 export default function Campos() {
-  const campos = textos.inicio.campos;
+  const { language } = useLanguage();
+  const campos = textos[language].inicio.campos;
   const cards: Yacimiento[] = [
     {
       id: 1,

@@ -2,23 +2,27 @@ import { Valor } from "@/app/types/tipos";
 import Valyac from "../../ValYac";
 import { popt } from "@/app/fonts/Fonts";
 import { FaHeart } from "react-icons/fa";
+import textos from "@/lib/textos";
+import { useLanguage } from "@/app/context/LanguageContext";
 export default function Valores() {
+  const { language } = useLanguage();
+  const valores = textos[language].inicio.valores;
   const val = [
     [
       {
-        texto: "Liderazgo en todas las fases del proyecto",
+        texto: valores.primerValor,
         imagen: "/Group 2.png",
         id: 1,
         color:"verde",
       },
       {
-        texto: "Transparencia en el desempeño",
+        texto: valores.segundoValor,
         imagen: "/Accounts-Group-Star-Rating--Streamline-Atlas.png",
         id: 2,
         color:"azul",
       },
       {
-        texto: "Pasion en cada tarea y nuevo desafío",
+        texto: valores.tercerValor,
         imagen: "/Group32.png",
         id: 3,
         color:"verde",
@@ -26,19 +30,19 @@ export default function Valores() {
     ],
     [
       {
-        texto: "Respeto por las comunidades y el medio ambiente",
+        texto: valores.cuartoValor,
         imagen: "/Group5.png",
         id: 4,
         color:"azul",
       },
       {
-        texto: "Excelencia en todos los niveles de la organización",
+        texto: valores.quintoValor,
         imagen: "/Group42.png",
         id: 5,
         color:"verde",
       },
       {
-        texto: "Integridad como base de todas nuestras decisiones",
+        texto: valores.sextoValor,
         imagen: "/Group5.png",
         id: 6,
         color:"azul",

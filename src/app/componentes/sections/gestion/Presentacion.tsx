@@ -1,6 +1,8 @@
+import { useLanguage } from "@/app/context/LanguageContext";
 import { popt } from "@/app/fonts/Fonts";
 
 export default function Presentacion() {
+  const { language, toggleLanguage } = useLanguage();
   return (
     <div className="w-screen h-screen flex flex-col-reverse lg:flex-row border-b-2 border-b-slate-700">
       <div className=" w-full lg:w-1/2 h-full flex items-end  ">
@@ -12,13 +14,12 @@ export default function Presentacion() {
         </div>
       </div>
       <div className="w-full lg:w-1/2 h-full p-12 flex gap-2 flex-col justify-center text-center lg:items-end">
-        <h1 className="text-azul text-xl lg:text-6xl">Gestión</h1>
+        <h1 className="text-azul text-xl lg:text-6xl">{language=='en'?"Managment":'Gestión'}</h1>
         <h1 className="text-azul text-xl lg:text-6xl" style={popt.style}>
-          Integrada
+        {language=='en'?"Integrated":'Integrada'}
         </h1>
         <p className="text-sm text-right lg:text-xl">
-          En VenOil Energia, nos enfocamos cada dia en la excelencia
-          operacional, para ello, contamos con un Sistema de Gestión Integrada
+          {language=='en'?"At VenOil Energía, we focus every day on operational excellence, for this, we have an Integrated Management System":'En VenOil Energia, nos enfocamos cada dia en la excelencia operacional, para ello, contamos con un Sistema de Gestión Integrada'}
         </p>
       </div>
     </div>

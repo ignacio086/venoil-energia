@@ -9,7 +9,9 @@ import {
 } from "@/components/ui/carousel";
 import { pop, popt } from "@/app/fonts/Fonts";
 import textos from "@/lib/textos";
+import { useLanguage } from "../context/LanguageContext";
 export function TarjNot({ id, titulo, textoF,imgF }: NoticiaP) {
+  const { language, toggleLanguage } = useLanguage();
   return (
     <div
       key={id}
@@ -23,7 +25,7 @@ export function TarjNot({ id, titulo, textoF,imgF }: NoticiaP) {
         <h1 className="w-full text-lg lg:text-2xl border-b-2 border-b-verde">{titulo}</h1>
         <p className="truncate">{textoF}</p>
         <div className="w-full xl:w-1/2">
-          <ButtonR texto="Leer mas" color="verde" dir={`/noticias/${id}`} />
+          <ButtonR texto={language=='en'?'Read More':'Leer más'} color="verde" dir={`/noticias/${id}`} />
         </div>
       </div>
     </div>
@@ -31,6 +33,7 @@ export function TarjNot({ id, titulo, textoF,imgF }: NoticiaP) {
 }
 
 export function TarjNotMini({ id, titulo, textoF,imgF }: NoticiaP) {
+  const { language, toggleLanguage } = useLanguage();
   return (
     <div
       key={id}
@@ -47,14 +50,15 @@ export function TarjNotMini({ id, titulo, textoF,imgF }: NoticiaP) {
         </div>
       </div>
       <div className=" w-full h-1/6 justify-around gap-2 flex flex-col">
-        <ButtonR texto="Leer mas" dir={`/noticias/${id}`} color="verde" />
+        <ButtonR texto={language=='en'?'Read More':'Leer más'} dir={`/noticias/${id}`} color="verde" />
       </div>
     </div>
   );
 }
 
 export function Tarj(){
-  const noticias =textos.noticias
+  const { language } = useLanguage();
+  const noticias =textos[language].noticias
   return (
     <div className="w-full lg:w-3/5 flex items-center justify-center">
         <Carousel className="w-4/5 rounded-xl shadow-[rgba(7,_65,_210,_0.2)_0px_9px_30px]">

@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
 import { Globe } from "lucide-react";
+import ToggleSwitch from "./toggleSwitch";
 
 export default function Nav() {
   const pathname = usePathname();
@@ -124,41 +125,7 @@ export default function Nav() {
           </Link>
         </motion.div>
       </div>
-      <div className="w-1/4 flex items-center justify-center text-black">
-        <DropdownMenu>
-          <DropdownMenuTrigger asChild>
-            <Button
-              variant="outline"
-              className="flex items-center gap-2 bg-blue text-white rounded-full"
-            >
-              {getLangInfo().icon}
-              <span>{getLangInfo().name}</span>
-            </Button>
-          </DropdownMenuTrigger>
-          <DropdownMenuContent align="end">
-            <DropdownMenuItem onClick={() => setLang("spanish")}>
-              <Image
-                src="/argentina_flag.png"
-                width={22}
-                height={22}
-                alt=""
-                className="mr-1"
-              />
-              Español
-            </DropdownMenuItem>
-            <DropdownMenuItem onClick={() => setLang("english")}>
-              <Image
-                src="/united_kingdom_flag.png"
-                width={22}
-                height={22}
-                alt=""
-                className="mr-1"
-              />
-              English
-            </DropdownMenuItem>
-          </DropdownMenuContent>
-        </DropdownMenu>
-      </div>
+      <ToggleSwitch/>
     </nav>
   );
 }

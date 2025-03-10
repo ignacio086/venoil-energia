@@ -1,7 +1,9 @@
+import { useLanguage } from "@/app/context/LanguageContext";
 import { pop, popt } from "@/app/fonts/Fonts";
 import { GiOilPump } from "react-icons/gi";
 
 export default function Presentacion() {
+  const { language } = useLanguage();
   return (
     <div
       className={`w-screen h-auto lg:h-screen bg-[url("/image12.png")] flex flex-col justify-center p-2 lg:p-24 gap-8`}
@@ -12,20 +14,16 @@ export default function Presentacion() {
           className="text-white text-lg lg:text-4xl text-center"
           style={popt.style}
         >
-          OPERADORA DE CAMPOS PETROLEROS
+          {language=='en'?'OIL FIELD OPERATOR':'OPERADORA DE CAMPOS PETROLEROS'}
         </h1>
       </div>
       <div className="flex flex-col lg:flex-row h-2/3 justify-around items-center gap-6">
         <p className="w-3/4 lg:w-1/3 text-white text-lg" style={pop.style}>
-          Somos una empresa líder en el gerenciamiento integral de yacimientos
-          petroleros, dedicados a potenciar la eficiencia operativa y la
-          rentabilidad de cada proyecto.
+          {language=='en'?'We are a leading company in the comprehensive management of oil fields, dedicated to enhancing the operational efficiency and profitability of each project.':"Somos una empresa líder en el gerenciamiento integral de yacimientos petroleros, dedicados a potenciar la eficiencia operativa y la rentabilidad de cada proyecto."}
           <br />
           <br />
-          <br /> Nos especializamos en la optimización de procesos y en la
-          generación de valor sostenible, con un enfoque particular en la
-          revitalización y maximización del rendimiento de campos maduros,
-          aplicando tecnologías innovadoras y estrategias de gestión avanzadas.
+          <br /> 
+          {language=='en'?'We specialize in process optimization and sustainable value generation, with a particular focus on revitalizing and maximizing the performance of mature fields by applying innovative technologies and advanced management strategies.':'Nos especializamos en la optimización de procesos y en la generación de valor sostenible, con un enfoque particular en la revitalización y maximización del rendimiento de campos maduros, aplicando tecnologías innovadoras y estrategias de gestión avanzadas.'}
         </p>
         <div
           className={`rounded-xl bg-[url("/ayb.jpg")] bg-cover aspect-square w-1/2 h-full flex items-end justify-center flex-col bg-no-repeat bg-center`}
