@@ -31,7 +31,7 @@ export default function Enlace() {
             </p>
             <div className="w-full flex items-center justify-center">
               <ButtonR
-                texto="TRABAJA CON NOSOTROS"
+                texto={language=='en'?'WORK WITH US':'TRABAJA CON NOSOTROS'}
                 color="verde"
                 dir="/workWithUs"
               />

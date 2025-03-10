@@ -1,6 +1,9 @@
+'use client'
+import { useLanguage } from "@/app/context/LanguageContext";
 import { ButtonR } from "../../ButtonR";
 import { popt } from "@/app/fonts/Fonts";
 export default function Presentacion() {
+  const { language, toggleLanguage } = useLanguage();
   return (
     <main className="w-screen flex items-center justify-center h-screen">
       <video
@@ -22,8 +25,8 @@ export default function Presentacion() {
           Innovando para un futuro <span className="text-verde">sostenible.</span>
         </p>
         <div className="w-full h-full flex item-center justify-center gap-5">
-          <ButtonR texto="VER MAS" color="blanco" dir="/operadora" />
-          <ButtonR texto="VISITAR" color="blanco" dir="/gestion" />
+          <ButtonR texto={language=='en'?'SEE MORE':'VER MÁS'} color="blanco" dir="/operadora" />
+          <ButtonR texto={language=='en'?'VISIT':'VISITAR'} color="blanco" dir="/gestion" />
         </div>
       </div>
     </main>
