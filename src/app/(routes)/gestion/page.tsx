@@ -1,3 +1,4 @@
+'use client'
 import Calidad from "../../componentes/sections/gestion/Calidad";
 import Enfoques from "../../componentes/sections/gestion/Enfoques";
 import Politicas from "../../componentes/sections/gestion/Politicas";

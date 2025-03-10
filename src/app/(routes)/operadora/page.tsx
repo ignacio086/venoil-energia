@@ -1,3 +1,4 @@
+'use client'
 import Campos from "@/app/componentes/sections/operadora/Campos";
 import Pilares from "@/app/componentes/sections/operadora/Pilares";
 import Presentacion from "@/app/componentes/sections/operadora/Presentacion";
