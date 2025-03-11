@@ -2,9 +2,9 @@
 import { MouseEvent, useState } from "react";
 import { CardContent, CardTitle } from "@/components/ui/card";
 import React from "react";
-import { Positionpop } from "./InteractMap.data";
 import { BsCaretRightFill } from "react-icons/bs";
 import { IoCloseOutline } from "react-icons/io5";
+import { Positionpop } from "../types/tipos";
 
 export default function InteractMap() {
   const [showPopover, setShowPopover] = useState(false);

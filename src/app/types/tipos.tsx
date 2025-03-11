@@ -3,7 +3,10 @@ export type estilosButton = {
   azul: string;
   blanco: string;
 };
-
+export interface Positionpop {
+  x: number;
+  y: number;
+}
 export interface Yacimiento {
   id: number;
   nombre: string;

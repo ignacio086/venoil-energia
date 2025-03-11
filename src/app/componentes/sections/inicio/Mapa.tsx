@@ -19,7 +19,7 @@ export default function Mapa() {
           <h1 className="text-verde text-3xl font-semibold py-4">
             {language == "en"
               ? "Our Presence in the Country"
-              : "Nuestro Presencia en el Pais"}
+              : "Nuestra Presencia en el Pais"}
           </h1>
           <p className="py-3">
             {language == "en"

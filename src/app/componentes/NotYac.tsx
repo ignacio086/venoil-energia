@@ -59,11 +59,12 @@ export function TarjNotMini({ id, titulo, textoF, imgF }: NoticiaP) {
         </div>
       </div>
       <div className=" w-full h-1/6 justify-around gap-2 flex flex-col">
-        <ButtonR
-          texto={language == "en" ? "Read More" : "Leer más"}
-          dir={`/noticias/${id}`}
-          color="verde"
-        />
+        <a
+          href={`/noticias/${id}`}
+          className={`bg-verde hover:bg-green-800 transition-all flex items-center justify-center text-center text-xs lg:text-sm w-full h-full text-white rounded-xl`}
+        >
+          {language == "en" ? "Read More" : "Leer más"}
+        </a>
       </div>
     </div>
   );
