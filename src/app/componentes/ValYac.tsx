@@ -11,7 +11,7 @@ export default function Valyac(valor: Valor) {
         valor.id == 2 ? "mr-0 lg:pr-24" : ""
       } items-center justify-center gap-2 p-2"`}
     >
-      <h1 style={popt.style} className="text-xs w-1/2 text-azul lg:text-sm">{valor.texto}</h1>
+      <h1 style={popt.style} className="text-xs w-1/2 text-azul lg:text-lg">{valor.texto}</h1>
       <div className="w-2 rounded-xl h-2/3 bg-gradient-to-b from-verde to-azul"></div>
       <div
         className={`w-12 h-12 lg:w-20 lg:h-20 bg-${valor.color} rounded-full bg-cover bg-center `}

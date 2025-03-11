@@ -29,7 +29,7 @@ export default function Campos() {
     },
     {
       id: 4,
-      nombre: "Chimen aike",
+      nombre: "Chimen Aike",
       descripcion: campos.chimenaike,
       imagen: "/chimenaike.png",
       direc: "chimenaike",
@@ -59,7 +59,7 @@ export default function Campos() {
   return (
     <div className="flex flex-col items-center gap-12 p-2 lg:p-12 justify-center">
       <h1 className=" text-lg lg:text-4xl text-verde" style={popt.style}>
-        Nuestros Campos En Mendoza
+        NUESTROS CAMPOS EN MENDOZA
       </h1>
       {cards.map((card, id) => {
         if (id >= 3) return <div></div>;
@@ -76,7 +76,7 @@ export default function Campos() {
               ></div>
               <div className="w-full p-2 lg:w-1/2 gap-12 flex flex-col items-center justify-center">
                 <h1
-                  className=" text-lg lg:text-4xl text-azul"
+                  className=" text-lg lg:text-5xl text-azul"
                   style={popt.style}
                 >
                   {card.nombre}
@@ -85,7 +85,7 @@ export default function Campos() {
                 <p
                   className={`${
                     id % 2 == 0 ? "lg:text-end" : " "
-                  } w-3/4 text-azul`}
+                  } w-3/4 text-azul text-sm lg:text-xl`}
                   style={pop.style}
                 >
                   {card.descripcion}
@@ -105,7 +105,7 @@ export default function Campos() {
         );
       })}
       <h1 className=" text-lg lg:text-4xl text-verde" style={popt.style}>
-        Nuestros Campos En Santa Cruz
+        NUESTROS CAMPOS EN SANTA CRUZ
       </h1>
       {cards.map((card, id) => {
         if (id <= 2) return <div></div>;
@@ -122,7 +122,7 @@ export default function Campos() {
               ></div>
               <div className="w-full p-2 lg:w-1/2 gap-12 flex flex-col items-center justify-center">
                 <h1
-                  className=" text-lg lg:text-4xl text-azul"
+                  className=" text-lg lg:text-5xl text-azul"
                   style={popt.style}
                 >
                   {card.nombre}
@@ -131,7 +131,7 @@ export default function Campos() {
                 <p
                   className={`${
                     id % 2 == 0 ? "lg:text-end" : " "
-                  } w-3/4 text-azul`}
+                  } w-3/4 text-azul text-sm lg:text-xl`}
                   style={pop.style}
                 >
                   {card.descripcion}
