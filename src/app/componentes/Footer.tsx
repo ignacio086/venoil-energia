@@ -33,10 +33,10 @@ export default function Footer() {
             <Link href="/operadora" className="flex items-center gap-2 hover:text-verde transition-colors">
               <FaAngleRight  /> <span>Operadora</span>
             </Link>
-            <Link href="/gestion-integrada" className="flex items-center gap-2 hover:text-verde transition-colors">
+            <Link href="/gestion" className="flex items-center gap-2 hover:text-verde transition-colors">
               <FaAngleRight  /> <span>Gestión Integrada</span>
             </Link>
-            <Link href="/trabaja-con-nosotros" className="flex items-center gap-2 hover:text-verde transition-colors">
+            <Link href="/workWithUs" className="flex items-center gap-2 hover:text-verde transition-colors">
               <FaAngleRight  /> <span>Trabaja con nosotros</span>
             </Link>
           </nav>
@@ -65,13 +65,13 @@ export default function Footer() {
         <div>
           <h2 className="text-xl font-bold mb-4 text-center md:text-left">Redes Sociales</h2>
           <div className="flex gap-4 justify-center md:justify-start">
-            <a href="https://www.instagram.com/Venoil_Energia" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-verde transition-all duration-300 transform hover:scale-110 hover:rotate-6">
+            <a href="https://www.instagram.com/venoilenergia_na/" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-verde transition-all duration-300 transform hover:scale-110 hover:rotate-6">
               <SlSocialInstagram />
             </a>
             <a href="https://www.facebook.com/Venoil_Energia" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-verde transition-all duration-300 transform hover:scale-110 hover:rotate-6">
               <SlSocialFacebook />
             </a>
-            <a href="https://www.linkedin.com/company/Venoil_Energia" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-verde transition-all duration-300 transform hover:scale-110 hover:rotate-6">
+            <a href="https://www.linkedin.com/company/venoil-energia/" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-verde transition-all duration-300 transform hover:scale-110 hover:rotate-6">
               <SlSocialLinkedin />
             </a>
             <a href="https://twitter.com/Venoil_Energia" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-verde transition-all duration-300 transform hover:scale-110 hover:rotate-6">

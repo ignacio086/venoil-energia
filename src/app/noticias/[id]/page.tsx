@@ -46,7 +46,7 @@ export default function Operadora({ params }: { params: { id: string } }) {
       </section>
       <footer>
         <p>
-          Fuente :<a href={`${noticia[0].fuente}`}>{noticia[0].fuente}</a>
+          Fuente :<a className="text-verde hover:text-green-800 cursor-pointer" href={`${noticia[0].fuente}`}>{noticia[0].fuente}</a>
         </p>
       </footer>
     </article>

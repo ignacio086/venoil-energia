@@ -11,7 +11,7 @@ export default function Campos() {
       id: 1,
       nombre: "El Manzano Oeste",
       descripcion: campos.manzano,
-      imagen: "/IMG-20250228-WA0033.jpg",
+      imagen: "/imagendecampoeditada.png",
       direc:"manzano"
     },
     {

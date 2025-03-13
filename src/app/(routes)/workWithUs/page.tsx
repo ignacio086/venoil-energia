@@ -1,3 +1,7 @@
+'use client'
+
+import ButtonCv from "@/app/componentes/sections/workWithUs/ButtonCv";
+
 export default function WorkWithUs() {
   return (
     <section>
@@ -67,11 +71,7 @@ export default function WorkWithUs() {
             </div>
           </div>
         </div>
-        <button className="relative px-6 py-2 bg-white rounded-full mt-4 overflow-hidden border-2 border-black">
-          <span className="relative bg-clip-text text-transparent bg-gradient-to-r from-verde to-azul">
-            Enviar curriculum
-          </span>
-        </button>
+        <ButtonCv/>
       </div>
     </section>
   );
