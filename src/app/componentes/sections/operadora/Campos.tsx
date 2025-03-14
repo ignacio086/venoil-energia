@@ -85,7 +85,7 @@ export default function Campos() {
                 <p
                   className={`${
                     id % 2 == 0 ? "lg:text-end" : " "
-                  } w-3/4 text-azul text-sm lg:text-xl`}
+                  } w-3/4 text-azul text-lg`}
                   style={pop.style}
                 >
                   {card.descripcion}
@@ -131,7 +131,7 @@ export default function Campos() {
                 <p
                   className={`${
                     id % 2 == 0 ? "lg:text-end" : " "
-                  } w-3/4 text-azul text-sm lg:text-xl`}
+                  } w-3/4 text-azul text-lg`}
                   style={pop.style}
                 >
                   {card.descripcion}

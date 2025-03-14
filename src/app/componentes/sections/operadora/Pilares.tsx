@@ -44,7 +44,7 @@ export default function Pilares() {
               className={` bg-cover bg-center w-8 h-8 lg:w-32 lg:h-20 rounded-xl`}
               style={{ backgroundImage: `url("${pilar.imagen}")` }}
             ></div>
-            <p>{pilar.descripcion}</p>
+            <p className="text-lg">{pilar.descripcion}</p>
           </div>
         );
       })}
