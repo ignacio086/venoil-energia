@@ -1,7 +1,6 @@
 import { Valor } from "@/app/types/tipos";
 import Valyac from "../../ValYac";
 import { popt } from "@/app/fonts/Fonts";
-import { FaHeart } from "react-icons/fa";
 import textos from "@/lib/textos";
 import { useLanguage } from "@/app/context/LanguageContext";
 export default function Valores() {
