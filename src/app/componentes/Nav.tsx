@@ -125,7 +125,9 @@ export default function Nav() {
           </Link>
         </motion.div>
       </div>
+      <div className=" flex items-center justify-around w-1/4">
       <ToggleSwitch/>
+      </div>
     </nav>
   );
 }

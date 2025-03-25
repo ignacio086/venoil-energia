@@ -33,7 +33,7 @@ export default function Presentacion() {
           </div>
           <div className="w-1 h-48 bg-azul"></div>
           <div
-            className={`rounded-xl bg-[url("/isotipo-01.png")] bg-contain aspect-square w-1/2 h-full flex items-end justify-center flex-col bg-no-repeat bg-center`}
+            className={`rounded-xl bg-[url("/logotipoblanco.png")] bg-contain aspect-square w-1/2 h-full flex items-end justify-center flex-col bg-no-repeat bg-center`}
           ></div>
         </div>
       </div>

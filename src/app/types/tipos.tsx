@@ -23,6 +23,13 @@ export interface LanguageContextProps {
   toggleLanguage: () => void;
 }
 
+export type Theme = 'wh' | 'bl';
+
+export interface ThemeContextProps {
+  theme: Theme;
+  toggleTheme: () => void;
+}
+
 export interface NoticiaP {
   id: string;
   titulo: string;

@@ -13,13 +13,13 @@ export default function Presentacion() {
         loop
         muted
       ></video>
-      <div className="absolute w-screen h-screen bg-gradient-to-b from-black/40 from-95% to-white/90"></div>
+      <div className="absolute w-screen h-screen bg-gradient-to-b from-black/40 from-95% to-white/90 dark:to-azul/90"></div>
       <div
         style={popt.style}
         className="w-auto text-white  p-24 rounded-xl flex flex-col gap-5 items-center text-center justify-center h-auto z-10 "
       >
         <h1 className=" text-xl lg:text-6xl">
-          Transformamos <span className="text-verde">desafíos</span> en <span className="text-verde">oportunidades</span>.
+          Transformamos <span className="text-verde ">desafíos</span> en <span className="text-verde">oportunidades</span>.
         </h1>
         <p className="text-sm lg:text-3xl">
           Innovando para un futuro <span className="text-verde">sostenible.</span>

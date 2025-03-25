@@ -1,10 +1,6 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { useState } from "react";
-import * as motion from "motion/react-client";
-import { pop } from "../fonts/Fonts";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -16,7 +12,6 @@ import { Globe } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 
 export default function ToggleSwitch() {
-  const pathname = usePathname();
   const [lang, setLang] = useState("spanish");
   const { language, toggleLanguage } = useLanguage();
   const getLangInfo = () => {
