@@ -11,7 +11,7 @@ export default function WorkWithUs() {
             <h1 className="text-6xl text-white mb-2">Trabaja con</h1>
             <h2 className="text-8xl text-white font-bold mb-4">Nosotros</h2>
             <p className="text-white text-lg">
-              En VenOil Energía, nuestro recurso humano es nuestro principal
+              En Venoil Energía, nuestro recurso humano es nuestro principal
               activo. Contamos con personal altamente capacitado, comprometido
               con la excelencia y la calidad. Fomentamos un ambiente que impulsa
               el desarrollo del potencial de cada colaborador.

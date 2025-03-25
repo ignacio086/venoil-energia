@@ -22,8 +22,8 @@ export default function Presentacion() {
         </h1>
         <p className="text-sm text-right lg:text-xl">
           {language == "en"
-            ? "At VenOil Energía, we focus every day on operational excellence, for this, we have an Integrated Management System"
-            : "En VenOil Energia, nos enfocamos cada dia en la excelencia operacional, para ello, contamos con un Sistema de Gestión Integrada"}
+            ? "At Venoil Energía, we focus every day on operational excellence, for this, we have an Integrated Management System"
+            : "En Venoil Energia, nos enfocamos cada dia en la excelencia operacional, para ello, contamos con un Sistema de Gestión Integrada"}
         </p>
         <div className="flex w-72 h-72 items-center justify-center flex-col gap-2">
           <div className="w-24 h-24 border-2 border-azul flex items-center justify-center rounded-full">
