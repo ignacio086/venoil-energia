@@ -7,13 +7,13 @@ export default function Enfoques() {
   const { language, toggleLanguage } = useLanguage();
   const lenf = textos[language].gestionintegrada.lenfoques;
   return (
-    <div className="w-screen h-screen z-10 bg-white">
+    <div className="w-screen h-screen z-10 bg-azul">
       <div className="w-full p-12 flex gap-2 h-1/3 items-center justify-center">
-        <div className="w-3/4 h-4 rounded-xl bg-gradient-to-r from-verde to-azul"></div>
-        <h1 className="text-azul text-xl lg:text-4xl">
+        <div className="w-3/4 h-4 rounded-xl bg-gradient-to-r from-green-900 to-verde"></div>
+        <h1 className="text-verde text-xl lg:text-4xl">
           {language == "en"
             ? "Focus on Operational Safety"
-            : "Enfoque a la Seguridad Operacional"}
+            : "Enfoque a la Seguridad Operacional."}
         </h1>
       </div>
       <div className="w-full h-full flex ">
@@ -44,9 +44,8 @@ export default function Enfoques() {
                   >
                     {text}
                   </h1>
-                  <div className="p-2 border-2 border-white rounded-full"></div>
                 </div>
-                <div className="border-r-2 hidden lg:block text-sm  border-slate-700">
+                <div className="border-r-2 hidden lg:block text-sm text-white  border-verde">
                   <p>{textos[language].gestionintegrada.enfoques[id]}</p>
                 </div>
               </motion.div>
@@ -56,7 +55,7 @@ export default function Enfoques() {
         <div className="w-1/2 lg:hidden h-full gap-8 flex flex-col ">
           {lenf.map((text, id) => {
             return (
-              <p className="" key={id}>
+              <p className="text-white" key={id}>
                 {textos[language].gestionintegrada.enfoques[id]}
               </p>
             );

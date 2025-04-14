@@ -12,7 +12,7 @@ export default function Acordion(){
   const print=textos[language].gestionintegrada.principiosT
   const printextos=textos[language].gestionintegrada.principios
     return(
-        <div>
+        <div className="text-white">
             <Accordion type="single" collapsible>
               {print.map((text,id)=>{
                 return(

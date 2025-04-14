@@ -10,13 +10,13 @@ export default function Pilares() {
       id: 1,
       descripcion:campos.descripcionP,
       imagen: "/Anotación 2024-12-17 2146201.png",
-      color:"border-azul"
+      color:"border-green-900"
     },
     {
       id: 2,
       descripcion:campos.descripcionS,
       imagen: "/Bar-Graph--Streamline-Atlas.png",
-      color:"border-t-azul border-b-verde border-l-azul border-r-verde "
+      color:"border-t-green-900 border-b-verde border-l-green-900 border-r-verde "
     },
     {
       id: 3,
@@ -26,7 +26,7 @@ export default function Pilares() {
     },{
         id: 4,
         descripcion:campos.descripcionC,
-        color:"border-t-verde border-b-azul border-l-verde border-r-azul"
+        color:"border-t-verde border-b-green-900 border-l-verde border-r-green-900"
       },
   ];
   return (
@@ -44,7 +44,7 @@ export default function Pilares() {
               className={` bg-cover bg-center w-8 h-8 lg:w-32 lg:h-20 rounded-xl`}
               style={{ backgroundImage: `url("${pilar.imagen}")` }}
             ></div>
-            <p className="text-lg">{pilar.descripcion}</p>
+            <p className="text-lg text-white">{pilar.descripcion}</p>
           </div>
         );
       })}

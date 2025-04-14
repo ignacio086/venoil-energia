@@ -21,21 +21,23 @@ export default function Mapa() {
               ? "Our Presence in the Country"
               : "Nuestra Presencia en el Pais"}
           </h1>
-          <p className="py-3 text-lg">
+          <p className="py-3 text-lg text-white">
             {language == "en"
               ? "We have strategic operations in various oil wells located in Argentina, among which the following stand out:"
               : "  Contamos con operaciones estratégicas en diversos pozos petroleros ubicados en Argentina, entre los cuales se destacan:"}
           </p>
 
-          <div className="flex-col space-y-2">
-            <p className="text-lg">• El Manzano (San Rafael, Mendoza)</p>
+          <div className="flex-col space-y-2 text-white">
+            <p className="text-lg">• El Manzano (Malargüe, Mendoza)</p>
+            <p className="text-lg">• Piedras Coloradas (Lujan de Cuyo, Mendoza)</p>
+            <p className="text-lg">• Cacheuta (Lujan de Cuyo, Mendoza)</p>
             <p className="text-lg">• Cañadón Salto (Río Gallegos, Santa Cruz)</p>
             <p className="text-lg">• Cóndor (Río Gallegos, Santa Cruz)</p>
             <p className="text-lg">• La Maggie (Río Gallegos, Santa Cruz)</p>
             <p className="text-lg">• Chimen Aike (Río Gallegos, Santa Cruz)</p>
           </div>
 
-          <p className="py-3 text-lg">
+          <p className="py-3 text-lg text-white">
             {language == "en"
               ? "These locations reflect our commitment to energy development and our active presence in key regions of the country."
               : " Estas locaciones reflejan nuestro compromiso con el desarrollo energético y la presencia activa en regiones clave del país."}

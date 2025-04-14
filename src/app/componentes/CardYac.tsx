@@ -16,7 +16,7 @@ export default function CardYac({
       style={pop.style}
       className={`h-full rounded-xl flex  items-center ${id%2==0?'flex-row':"flex-row-reverse lg:flex-row"} justify-center text-xs lg:text-lg w-full gap-2 ${
         last ? " col-start-1 lg:col-start-2 lg:col-span-1" : "col-start-1 lg:col-auto"
-      } bg-white shadow-[rgba(0,_0,_0,_0.8)_0px_3px_20px]`}
+      } bg-white shadow-[rgba(120,_120,_120,_120.8)_0px_3px_20px]`}
     >
       <div
         className={` bg-cover bg-center w-full h-full lg:w-full lg:h-full rounded-md`}

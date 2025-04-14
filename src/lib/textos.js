@@ -6,15 +6,15 @@ const textos = {
         "Ocupó diferentes posiciones técnicas, gerenciales y directivas en empresas como Repsol e YPF.",
         "Su última función directiva estuvo focalizada en los activos del sur de la provincia de Mendoza. Obtuvo diferentes menciones de la alta dirección de ambas empresas, reconociendo sus excelentes resultados.",
         "Gustavo es Ingeniero Electrónico y completó su formación académica capacitándose en programas de Dirección Ejecutiva (IAE) y de Alta Dirección (UCA). Posee amplia experiencia en producción, tratamiento y transporte de gas & petróleo, gerenciamiento de proyectos, negociación con socios, sindicatos y entes gubernamentales.",
-        "Es Co-fundador de Venoil Energia. Todo esto hace de Gustavo un especialista de excelencia en la gestión de proyectos de Oil & Gas.",
+        "Es fundador de Venoil Energia. Todo esto hace de Gustavo un especialista de excelencia en la gestión de proyectos de Oil & Gas.",
       ],
       valores: {
-        primerValor:"Liderazgo en todas las fases del proyecto",
-        segundoValor:"Transparencia en el desempeño",
-        tercerValor:"Pasion en cada tarea y nuevo desafío",
-        cuartoValor:"Respeto por las comunidades y el medio ambiente",
-        quintoValor:"Excelencia en todos los niveles de la organización",
-        sextoValor:"Integridad como base de todas nuestras decisiones",
+        primerValor:"Liderazgo en todas las fases del proyecto.",
+        segundoValor:"Transparencia en el desempeño.",
+        tercerValor:"Pasion en cada tarea y nuevo desafío.",
+        cuartoValor:"Respeto por las comunidades y el medio ambiente.",
+        quintoValor:"Excelencia en todos los niveles de la organización.",
+        sextoValor:"Integridad como base de todas nuestras decisiones.",
       },
       campos: {
         manzano:
@@ -37,12 +37,12 @@ const textos = {
       cenfoques: ["verde", "azul", "verde", "azul", "verde", "azul"],
       lenfoques: ["V", "E", "N", "O", "I", "L"],
       enfoques: [
-        "Evaluación de Riesgos de Seguridad",
-        "Adopción de Medidas de Mitigación",
-        "Trabajos en Altura y en Espacios Confinados",
-        "Izaje de Cargas",
-        "Manejo Defensivo",
-        "Medio Ambiente",
+        "Evaluación de Riesgos de Seguridad.",
+        "Adopción de Medidas de Mitigación.",
+        "Trabajos en Altura y en Espacios Confinados.",
+        "Izaje de Cargas.",
+        "Manejo Defensivo.",
+        "Medio Ambiente.",
       ],
       principiosT: [
         "ISO 9001 - Gestión de la calidad",
@@ -52,7 +52,7 @@ const textos = {
       principios: [
         "Esta norma asegura que nuestros procesos estén diseñados para cumplir consistentemente con las expectativas de nuestros clientes,mejorando la eficiencia y fomentando la mejora continua.",
         "Comprometidos con el cuidado del medio ambiente, implementamos esta norma para gestionar de manera responsable los impactos ambientales de nuestras actividades, promoviendo prácticas sostenibles y respetuosas con el entorno.",
-        "Garantizamos la seguridad y el bienestar de nuestros empleados y colaboradores a través de sistemas que identifican, controlan y reducen los riesgos en el entorno laboral",
+        "Garantizamos la seguridad y el bienestar de nuestros empleados y colaboradores a través de sistemas que identifican, controlan y reducen los riesgos en el entorno laboral.",
         "Vigilamos cada detalle para garantizar la seguridad en todas nuestras operaciones.",
       ],
       gestion: [
@@ -67,7 +67,7 @@ const textos = {
       {
         id: "1",
         titulo:
-          "CGC acuerda con Venoil Energía la cesión de Piedras Coloradas y Cacheuta con inversiones para revitalizar ambas áreas",
+          "CGC acuerda con Venoil Energía la cesión de Piedras Coloradas y Cacheuta con inversiones para revitalizar ambas áreas.",
         textoF: `Alcanzaron un acuerdo preliminar mediante el cual la Compañía General de Combustibles (CGC) cederá las operaciones de las áreas, ubicadas en la Cuenca Cuyana, a la mendocina Venoil, que se compromete a realizar inversiones para revitalizar los yacimientos maduros. Ya se envió la solicitud al Gobierno de Mendoza.
     Mendoza sigue dando pasos firmes para incrementar su actividad hidrocarburífera y mantener en producción las áreas maduras: la Compañía General de Combustibles (CGC) llegó a un acuerdo preliminar para ceder las operaciones de las áreas Piedras Coloradas y Cacheuta a Venoil y ya solicitó el permiso formal al Gobierno de Mendoza, que debe autorizar por decreto.
     
@@ -108,7 +108,7 @@ const textos = {
       {
         id: "2",
         titulo:
-          "Mendoza continúa potenciando inversiones en el sector petrolero",
+          "Mendoza continúa potenciando inversiones en el sector petrolero.",
         textoF: `Con la exitosa intervención de pulling que se realizó en los pozos petroleros del área Vega Grande a través del programa Mendoza Activa, la provincia genera nuevas oportunidades de inversión y de empleo.
     Emesa, junto a las pymes locales Jet Oil Tecnology y Venoil Energía, realiza trabajos de recuperación y mejoramiento del yaciminento Vega Grande, ubicado al sur de San Rafael y considerado el área petrolera más alta sobre el nivel del mar de la Argentina.  
     
@@ -148,15 +148,15 @@ const textos = {
         "Held different technical, managerial, and executive positions in companies like Repsol and YPF.",
         "His last executive role was focused on the assets in the south of Mendoza province. He received several recognitions from the top management of both companies for his excellent results.",
         "Gustavo is an Electronic Engineer and completed his academic training in Executive Management programs (IAE) and Senior Management (UCA). He has extensive experience in production, treatment, and transportation of gas & oil, project management, and negotiation with partners, unions, and government entities.",
-        "He is the Co-founder of Venoil Energía. All this makes Gustavo an outstanding specialist in Oil & Gas project management.",
+        "He is the founder of Venoil Energía. All this makes Gustavo an outstanding specialist in Oil & Gas project management.",
       ],
       valores: {
-        primerValor: "Leadership in all phases of the project",
-        segundoValor: "Transparency in performance",
-        tercerValor: "Passion in every task and new challenge",
-        cuartoValor: "Respect for communities and the environment",
-        quintoValor: "Excellence at all levels of the organization",
-        sextoValor: "Integrity as the basis of all our decisions",
+        primerValor: "Leadership in all phases of the project.",
+        segundoValor: "Transparency in performance.",
+        tercerValor: "Passion in every task and new challenge.",
+        cuartoValor: "Respect for communities and the environment.",
+        quintoValor: "Excellence at all levels of the organization.",
+        sextoValor: "Integrity as the basis of all our decisions.",
       },
       campos: {
         manzano:
@@ -179,12 +179,12 @@ const textos = {
       cenfoques: ["green", "blue", "green", "blue", "green", "blue"],
       lenfoques: ["V", "E", "N", "O", "I", "L"],
       enfoques: [
-        "Risk Assessment",
-        "Adoption of Mitigation Measures",
-        "Work at Height and in Confined Spaces",
-        "Load Lifting",
-        "Defensive Driving",
-        "Environment",
+        "Risk Assessment.",
+        "Adoption of Mitigation Measures.",
+        "Work at Height and in Confined Spaces.",
+        "Load Lifting.",
+        "Defensive Driving.",
+        "Environment.",
       ],
       principiosT: [
         "ISO 9001 - Quality Management",
@@ -209,7 +209,7 @@ const textos = {
       {
         id: "1",
         titulo: "CGC agrees with Venoil Energía for the transfer of Piedras Coloradas and Cacheuta with investments to revitalize both areas",
-        textoF: "A preliminary agreement was reached whereby Compañía General de Combustibles (CGC) will transfer the operations of the areas, located in the Cuyana Basin, to Venoil from Mendoza, which is committed to making investments to revitalize the mature fields. The request has already been sent to the Mendoza Government. Mendoza continues to take firm steps to increase its hydrocarbon activity and maintain production in mature areas: Compañía General de Combustibles (CGC) reached a preliminary agreement to transfer the operations of the Piedras Coloradas and Cacheuta areas to Venoil and has already requested formal permission from the Mendoza Government, which must authorize it by decree. These agreements, where smaller companies take over mature areas where production is still possible, allow for revitalization of mature fields, increased production, attracting new investments, and generating a positive economic impact in the Mendoza communities. 'Venoil makes an investment proposal similar to that committed by CGC in the current request for an extension. What is interesting is that there are new operators, possibly smaller-scale operators, but who have the investment capacity to emulate the big ones and put the provincial hydrocarbon resources to good use. Venoil is an industry that has its roots and history in Mendoza, which makes us very proud that our province continues to grow with Mendoza workers and with the vision of local development that we want,' said Manuel Sánchez Bandini, Undersecretary of Energy and Mining of the Ministry of Energy and Environment. 'Both areas have a combined production of more than 200 cubic meters per day, and the concessions have scheduled expiration dates in 2025 and 2026, respectively. Along with the authorization request, Venoil has submitted an investment plan aimed at revitalizing these areas. If the transfer is approved, this plan will also be evaluated to consider the extension of the concessions,' explained Hydrocarbons Director Lucas Erio. 'This understanding is part of a natural process in Argentina's hydrocarbon industry, where large companies are adjusting their focus to assets of greater strategic interest, opening up opportunities for smaller companies to take over the operation of areas considered marginal by large operators,' he added. 'The most important thing is that there is a transformation in the value chain towards greater efficiency, lower costs, and the extension of the exploitation of these resources over time,' Sánchez Bandini added.",
+        textoF: "A preliminary agreement was reached whereby Compañía General de Combustibles (CGC) will transfer the operations of the areas, located in the Cuyana Basin, to Venoil from Mendoza, which is committed to making investments to revitalize the mature fields. The request has already been sent to the Mendoza Government. Mendoza continues to take firm steps to increase its hydrocarbon activity and maintain production in mature areas: Compañía General de Combustibles (CGC) reached a preliminary agreement to transfer the operations of the Piedras Coloradas and Cacheuta areas to Venoil and has already requested formal permission from the Mendoza Government, which must authorize it by decree. These agreements, where smaller companies take over mature areas where production is still possible, allow for revitalization of mature fields, increased production, attracting new investments, and generating a positive economic impact in the Mendoza communities. 'Venoil makes an investment proposal similar to that committed by CGC in the current request for an extension. What is interesting is that there are new operators, possibly smaller-scale operators, but who have the investment capacity to emulate the big ones and put the provincial hydrocarbon resources to good use. Venoil is an industry that has its roots and history in Mendoza, which makes us very proud that our province continues to grow with Mendoza workers and with the vision of local development that we want,' said Manuel Sánchez Bandini, Undersecretary of Energy and Mining of the Ministry of Energy and Environment. 'Both areas have a combined production of more than 200 cubic meters per day, and the concessions have scheduled expiration dates in 2025 and 2026, respectively. Along with the authorization request, Venoil has submitted an investment plan aimed at revitalizing these areas. If the transfer is approved, this plan will also be evaluated to consider the extension of the concessions,' explained Hydrocarbons Director Lucas Erio. 'This understanding is part of a natural process in Argentina's hydrocarbon industry, where large companies are adjusting their focus to assets of greater strategic interest, opening up opportunities for smaller companies to take over the operation of areas considered marginal by large operators,' he added. 'The most important thing is that there is a transformation in the value chain towards greater efficiency, lower costs, and the extension of the exploitation of these resources over time,' Sánchez Bandini added",
         textoS: "A rising trend\n\nAn example of this trend is YPF's Andes Project. The company focuses its efforts on strategic assets like Vaca Muerta in Neuquén, while transferring conventional areas to specialized operators. This model aims to optimize production and revitalize mature fields through focused investments and sustainable development plans. In Mendoza, this dynamic is also reflected in recent cases such as the transfer of areas in Malargüe from Phoenix Global Resources to Petroquímica Comodoro Rivadavia (PCR) and the transfer of the Vega Grande area to the local operator G&G Service SRL. These initiatives allow smaller-scale companies to boost activity, maximizing the value of assets considered secondary by larger operators. In line with this strategy, CGC is focusing its projects on Palermo Aike, in the province of Santa Cruz, where the potential of the Austral Basin is being developed. This redirection allows companies like Venoil, with experience in mature fields, to focus on optimizing areas like Piedras Coloradas and Cacheuta, with specific investment plans aimed at maximizing production and regional economic impact. 'We are excited about this understanding, which represents a significant step in our expansion strategy. Piedras Coloradas and Cacheuta offer great potential, and our intention is to implement responsible practices that optimize their development. We look forward to advancing as soon as the provincial decree is issued,' said Gustavo Naves, President and CEO of Venoil. For his part, Pablo Chebli, Co-CEO of CGC, commented: 'The agreement with Venoil reinforces our vision of collaboration and our commitment to maximizing production and the remaining development of mature areas, giving each area the necessary focus.' The progress of this agreement is subject to provincial approval and decree, which would formally enable the transfer of the areas.",
         imgF: "/petróleo-mendoza.jpg",
         imgS: "/image1.png",

@@ -46,7 +46,7 @@ export default function Footer() {
           <h2 className="text-xl font-bold mb-4 text-center md:text-left">Nuestro Contacto</h2>
           <div className="flex flex-col gap-2 text-sm">
             <p className="flex items-center gap-2">
-              <FaPhoneAlt size={18}/> <span>+54 263 4782743</span>
+              <FaPhoneAlt size={18}/> <span>+54 9 261 264-5614</span>
             </p>
             <p className="flex items-start gap-2">
               <FaLocationDot size={18} className="mt-4" />

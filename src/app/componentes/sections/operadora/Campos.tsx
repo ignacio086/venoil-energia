@@ -76,7 +76,7 @@ export default function Campos() {
               ></div>
               <div className="w-full p-2 lg:w-1/2 gap-12 flex flex-col items-center justify-center">
                 <h1
-                  className=" text-lg lg:text-5xl text-azul"
+                  className=" text-lg lg:text-5xl text-white"
                   style={popt.style}
                 >
                   {card.nombre}
@@ -85,7 +85,7 @@ export default function Campos() {
                 <p
                   className={`${
                     id % 2 == 0 ? "lg:text-end" : " "
-                  } w-3/4 text-azul text-lg`}
+                  } w-3/4 text-white text-lg`}
                   style={pop.style}
                 >
                   {card.descripcion}
@@ -122,7 +122,7 @@ export default function Campos() {
               ></div>
               <div className="w-full p-2 lg:w-1/2 gap-12 flex flex-col items-center justify-center">
                 <h1
-                  className=" text-lg lg:text-5xl text-azul"
+                  className=" text-lg lg:text-5xl text-white"
                   style={popt.style}
                 >
                   {card.nombre}
@@ -131,7 +131,7 @@ export default function Campos() {
                 <p
                   className={`${
                     id % 2 == 0 ? "lg:text-end" : " "
-                  } w-3/4 text-azul text-lg`}
+                  } w-3/4 text-white text-lg`}
                   style={pop.style}
                 >
                   {card.descripcion}

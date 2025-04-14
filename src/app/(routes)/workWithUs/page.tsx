@@ -4,7 +4,7 @@ import ButtonCv from "@/app/componentes/sections/workWithUs/ButtonCv";
 
 export default function WorkWithUs() {
   return (
-    <section>
+    <section className="bg-azul text-white">
       <div className="relative w-screen h-screen flex items-center bg-gradient-to-r from-verde to-azul">
         <div className="flex w-full h-full">
           <div className="w-1/2 flex flex-col justify-center px-16">
@@ -26,20 +26,20 @@ export default function WorkWithUs() {
           <img src="isotipo.png" alt="Marca de agua" className="w-24" />
         </div>
       </div>
-      <div className="w-full flex flex-col items-center my-16 bg-white">
-        <h3 className="text-black text-xl mb-4 font-bold">
+      <div className="w-full flex flex-col items-center my-16 bg-azul">
+        <h3 className="text-white text-xl mb-4 font-bold">
           Para postularte, deberás seguir unas simples instrucciones:
         </h3>
         <div className="relative w-1/2">
-          <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-2 rounded-full bg-blue-900"></div>
+          <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-2 rounded-full bg-white"></div>
           <div className="mb-8 p-10">
             <div className="w-1/2 flex justify-end pr-4">
-              <span className="bg-white text-blue-900 rounded-full w-12 h-12 flex items-center justify-center border-2 border-blue-900 text-xl">
+              <span className="bg-white text-azul rounded-full w-12 h-12 flex items-center justify-center border-2 border-white text-xl">
                 1
               </span>
             </div>
             <div className="w-1/2 pl-4">
-              <p className="text-black">
+              <p className="text-white">
                 Primero descarga{" "}
                 <a href="FormatoCVVENOIL.docx" className="text-verde">
                   aquí
@@ -50,22 +50,22 @@ export default function WorkWithUs() {
           </div>
           <div className="mb-8 p-10">
             <div className="-w-1/2 flex justify-center pl-20">
-              <span className="bg-white text-blue-900 rounded-full w-12 h-12 flex items-center justify-center border-2 border-blue-900 text-xl">
+              <span className="bg-white text-azul rounded-full w-12 h-12 flex items-center justify-center border-2 border-white text-xl">
                 2
               </span>
             </div>
             <div className="-w-1/2 flex justify-end pl-4">
-              <p className="text-black">Completa con tus datos.</p>
+              <p className="text-white">Completa con tus datos.</p>
             </div>
           </div>
           <div className="mb-8 p-10">
             <div className="w-1/2 flex justify-end pr-4">
-              <span className="bg-white text-blue-900 rounded-full w-12 h-12 flex items-center justify-center border-2 border-blue-900 text-xl">
+              <span className="bg-white text-azul rounded-full w-12 h-12 flex items-center justify-center border-2 border-azul text-xl">
                 3
               </span>
             </div>
             <div className="w-1/2 pl-4">
-              <p className="text-black">
+              <p className="text-white">
                 Cárgalo a través del botón "Enviar Curriculum" y ¡Postúlate!
               </p>
             </div>

@@ -28,10 +28,10 @@ export default function ButtonCv() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col gap-4 p-4 border rounded-lg">
+    <form onSubmit={handleSubmit} className="flex flex-col gap-4 p-4 border rounded-xl">
       <input type="file" accept=".pdf" onChange={handleFileChange} required />
-      <button type='submit' className="relative px-6 py-2 bg-white rounded-full mt-4 overflow-hidden border-2 border-black">
-          <span className="relative bg-clip-text text-transparent bg-gradient-to-r from-verde to-azul">
+      <button type='submit' className="relative px-6 py-2 bg-azul rounded-full mt-4 overflow-hidden border-2 border-verde">
+          <span className="relative bg-clip-text text-transparent bg-gradient-to-r from-verde to-white">
             Enviar curriculum
           </span>
         </button>

@@ -29,9 +29,9 @@ export default function InteractMap() {
   return (
     <div>
       <svg
-        fill="#ffffff"
+        fill="#1D2E5D"
         height="800px"
-        stroke="#000000"
+        stroke="#ffffff"
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="1"
