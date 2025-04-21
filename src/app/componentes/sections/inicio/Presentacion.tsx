@@ -2,6 +2,7 @@
 import { useLanguage } from "@/app/context/LanguageContext";
 import { ButtonR } from "../../ButtonR";
 import { popt } from "@/app/fonts/Fonts";
+import MapaN from "../mapanew";
 export default function Presentacion() {
   const { language, toggleLanguage } = useLanguage();
   return (
@@ -28,6 +29,7 @@ export default function Presentacion() {
           <ButtonR texto={language=='en'?'SEE MORE':'VER MÁS'} color="blanco" dir="/operadora" />
           <ButtonR texto={language=='en'?'VISIT':'VISITAR'} color="blanco" dir="/gestion" />
         </div>
+        <MapaN/>
       </div>
     </main>
   );

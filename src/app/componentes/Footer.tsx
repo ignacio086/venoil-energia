@@ -12,7 +12,7 @@ import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <footer className="bg-azul text-white w-full py-12 px-4 md:px-24">
+    <footer className="bg-azul text-white border-t-2 border-t-white w-full py-12 px-4 md:px-24">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="flex flex-col items-center justify-center md:items-start">
           <Image

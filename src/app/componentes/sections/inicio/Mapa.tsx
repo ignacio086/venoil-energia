@@ -1,7 +1,6 @@
-import { popt } from "@/app/fonts/Fonts";
 import InteractMap from "../../InteractMap";
 import { useLanguage } from "@/app/context/LanguageContext";
-
+import * as motion from "motion/react-client";
 export default function Mapa() {
   const { language, toggleLanguage } = useLanguage();
   return (
@@ -10,9 +9,9 @@ export default function Mapa() {
         <InteractMap />
 
         <div>
-          <div className="w-1 h-72 bg-[#D9D9D9] rounded-2xl"></div>
-          <div className="w-1 h-6 bg-[#D9D9D9] rounded-2xl my-3"></div>
-          <div className="w-1 h-72 bg-[#D9D9D9] rounded-2xl"></div>
+          <motion.div initial={{backgroundColor:'#D9D9D9'}} animate={{backgroundColor:['#54BB5A','#54BB5A','#fff','#54BB5A','#54BB5A']}} transition={{repeat:Infinity,duration:10,}} layout className="w-1 h-72  rounded-2xl"></motion.div>
+          <motion.div initial={{backgroundColor:'#D9D9D9'}} animate={{backgroundColor:['#54BB5A','#54BB5A','#fff','#54BB5A','#54BB5A']}} transition={{repeat:Infinity,duration:10,delay:0.2}}  className="w-1 h-6  rounded-2xl my-3"></motion.div>
+          <motion.div initial={{backgroundColor:'#D9D9D9'}} animate={{backgroundColor:['#54BB5A','#54BB5A','#fff','#54BB5A','#54BB5A']}} transition={{repeat:Infinity,duration:10,delay:0.4}}  className="w-1 h-72 rounded-2xl"></motion.div>
         </div>
 
         <div className="font-medium text-venoil-gray">
