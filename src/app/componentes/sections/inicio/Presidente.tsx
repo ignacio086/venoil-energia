@@ -7,7 +7,7 @@ export default function Presidente() {
   const { language } = useLanguage();
   const text = textos[language].inicio.presidente;
   return (
-    <div className="w-screen flex flex-col items-center justify-center h-auto text">
+    <div className="w-screen flex flex-col items-center justify-center h-auto ">
       <h1 className="text-verde text-center text-xl lg:text-4xl" style={popt.style}>
         {language=='en'?'Our President':'Nuestro Presidente'}
       </h1>
@@ -16,7 +16,7 @@ export default function Presidente() {
           <h1 style={popt.style} className="text-lg lg:text-2xl text-white flex"> <span ><TiInfo className="p-2 bg-verde text-white w-8 h-8 rounded-full"/></span>Perfil de Gustavo Naves</h1>
           {text.map((e, i) => {
             return (
-              <p key={i} style={popt.style} className="text-xs text-white text-justify lg:text-lg">
+              <p key={i} style={popt.style} className="text-xs text-white p-4 text-justify lg:text-lg">
                 {e}
               </p>
             );

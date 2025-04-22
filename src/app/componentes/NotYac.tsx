@@ -55,7 +55,7 @@ export function TarjNotMini({ id, titulo, textoF, imgF }: NoticiaP) {
           <h1 className="text-lg lg:text-3xl   line-clamp-5 lg:line-clamp-none">
             {titulo}
           </h1>
-          <p className="text-xs lg:text-sm line-clamp-2">{textoF}</p>
+          <p className="text-xs lg:text-sm line-clamp-2 text-justify">{textoF}</p>
         </div>
       </div>
       <div className=" w-full h-1/6 justify-around gap-2 flex flex-col">

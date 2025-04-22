@@ -5,13 +5,13 @@ export default function Mapa() {
   const { language, toggleLanguage } = useLanguage();
   return (
     <section className="p-4">
-      <div className="flex items-center justify-center gap-20">
+      <div className="flex flex-col lg:flex-row items-center justify-center gap-20">
         <InteractMap />
 
         <div>
-          <motion.div initial={{backgroundColor:'#D9D9D9'}} animate={{backgroundColor:['#54BB5A','#54BB5A','#fff','#54BB5A','#54BB5A']}} transition={{repeat:Infinity,duration:10,}} layout className="w-1 h-72  rounded-2xl"></motion.div>
-          <motion.div initial={{backgroundColor:'#D9D9D9'}} animate={{backgroundColor:['#54BB5A','#54BB5A','#fff','#54BB5A','#54BB5A']}} transition={{repeat:Infinity,duration:10,delay:0.2}}  className="w-1 h-6  rounded-2xl my-3"></motion.div>
-          <motion.div initial={{backgroundColor:'#D9D9D9'}} animate={{backgroundColor:['#54BB5A','#54BB5A','#fff','#54BB5A','#54BB5A']}} transition={{repeat:Infinity,duration:10,delay:0.4}}  className="w-1 h-72 rounded-2xl"></motion.div>
+          <motion.div initial={{backgroundColor:'#D9D9D9'}} animate={{backgroundColor:['#54BB5A','#54BB5A','#fff','#54BB5A','#54BB5A']}} transition={{repeat:Infinity,duration:5,}} className=" hidden lg:block lg:w-1 lg:h-72  rounded-2xl"></motion.div>
+          <motion.div initial={{backgroundColor:'#D9D9D9'}} animate={{backgroundColor:['#54BB5A','#54BB5A','#fff','#54BB5A','#54BB5A']}} transition={{repeat:Infinity,duration:5,delay:0.2}}  className=" w-72 h-2 lg:w-1 lg:h-6  rounded-2xl my-3"></motion.div>
+          <motion.div initial={{backgroundColor:'#D9D9D9'}} animate={{backgroundColor:['#54BB5A','#54BB5A','#fff','#54BB5A','#54BB5A']}} transition={{repeat:Infinity,duration:5,delay:0.4}}  className="hidden lg:block lg:w-1 lg:h-72 rounded-2xl"></motion.div>
         </div>
 
         <div className="font-medium text-venoil-gray">
@@ -27,16 +27,16 @@ export default function Mapa() {
           </p>
 
           <div className="flex-col space-y-2 text-white">
-            <p className="text-lg">• El Manzano (Malargüe, Mendoza)</p>
-            <p className="text-lg">• Piedras Coloradas (Lujan de Cuyo, Mendoza)</p>
-            <p className="text-lg">• Cacheuta (Lujan de Cuyo, Mendoza)</p>
-            <p className="text-lg">• Cañadón Salto (Río Gallegos, Santa Cruz)</p>
-            <p className="text-lg">• Cóndor (Río Gallegos, Santa Cruz)</p>
-            <p className="text-lg">• La Maggie (Río Gallegos, Santa Cruz)</p>
-            <p className="text-lg">• Chimen Aike (Río Gallegos, Santa Cruz)</p>
+            <p className="text-xs lg:text-lg">• El Manzano (Malargüe, Mendoza)</p>
+            <p className="text-xs lg:text-lg">• Piedras Coloradas (Lujan de Cuyo, Mendoza)</p>
+            <p className="text-xs lg:text-lg">• Cacheuta (Lujan de Cuyo, Mendoza)</p>
+            <p className="text-xs lg:text-lg">• Cañadón Salto (Río Gallegos, Santa Cruz)</p>
+            <p className="text-xs lg:text-lg">• Cóndor (Río Gallegos, Santa Cruz)</p>
+            <p className="text-xs lg:text-lg">• La Maggie (Río Gallegos, Santa Cruz)</p>
+            <p className="text-xs lg:text-lg">• Chimen Aike (Río Gallegos, Santa Cruz)</p>
           </div>
 
-          <p className="py-3 text-lg text-white">
+          <p className="py-3 text-xs lg:text-lg text-white">
             {language == "en"
               ? "These locations reflect our commitment to energy development and our active presence in key regions of the country."
               : " Estas locaciones reflejan nuestro compromiso con el desarrollo energético y la presencia activa en regiones clave del país."}

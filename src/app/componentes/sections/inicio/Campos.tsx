@@ -32,7 +32,7 @@ export default function Campos() {
       id: 4,
       nombre: "Chimen aike",
       descripcion: campos.chimenaike,
-      imagen: "/chimenaike.png",
+      imagen: "/chimenaike.jpg",
       direc:"chimenaike"
     },
     {

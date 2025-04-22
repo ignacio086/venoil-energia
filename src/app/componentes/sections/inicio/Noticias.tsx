@@ -15,7 +15,7 @@ export default function Noticias() {
       <h1 className="text-xl lg:text-4xl text-center text-verde" style={popt.style}>
         {language=='en'?'OUR NEWS':'NUESTRAS NOTICIAS'}
       </h1>
-      <div className=" w-full h-full grid grid-cols-2 lg:grid-cols-2 gap-2 items-center justify-center ">
+      <div className=" w-full h-full grid grid-cols-2 lg:grid-cols-2 text-justify gap-2 items-center justify-center ">
         {noticias.map((noticia) => {
           return (
             <TarjNotMini

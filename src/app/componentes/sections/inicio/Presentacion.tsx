@@ -29,7 +29,6 @@ export default function Presentacion() {
           <ButtonR texto={language=='en'?'SEE MORE':'VER MÁS'} color="blanco" dir="/operadora" />
           <ButtonR texto={language=='en'?'VISIT':'VISITAR'} color="blanco" dir="/gestion" />
         </div>
-        <MapaN/>
       </div>
     </main>
   );

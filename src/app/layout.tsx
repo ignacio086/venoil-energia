@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased bg-azul overflow-x-hidden scroll-smooth`}
+        className={`antialiased bg-azul overflow-x-hidden scroll-smooth `}
         style={pop.style}
       >
 
