@@ -274,7 +274,7 @@ export default function InteractMap() {
                 <BsCaretRightFill className="mr-1" /> Cacheuta
               </Link>
               <Link href={`/operadora#manzano`} className="flex hover:text-[#005604] items-center">
-                <BsCaretRightFill className="mr-1" /> El Manzano Oeste
+                <BsCaretRightFill className="mr-1" /> Manzano Oeste
               </Link>
             </ul>
           </CardContent>
@@ -301,7 +301,7 @@ export default function InteractMap() {
           <CardContent className="p-3">
             <ul className="text-sm">
               <Link href={`/operadora#condor`} className="flex hover:text-[#005604] items-center">
-                <BsCaretRightFill className="mr-1" /> El Cóndor
+                <BsCaretRightFill className="mr-1" /> Cóndor
               </Link>
               <Link href={`/operadora#maggie`} className="flex hover:text-[#005604] items-center">
                 <BsCaretRightFill className="mr-1" /> Estancia La Maggie
