@@ -84,7 +84,7 @@ export default function Campos() {
                 <div className="h-2 w-3/4 bg-verde rounded-xl"></div>
                 <p
                   className={`${
-                    id % 2 == 0 ? "lg:text-end" : " "
+                    id % 2 == 0 ? "lg:text-jutify" : " "
                   } w-3/4 text-white text-lg text-justify`}
                   style={pop.style}
                 >
@@ -130,7 +130,7 @@ export default function Campos() {
                 <div className="h-2 w-3/4 bg-verde rounded-xl"></div>
                 <p
                   className={`${
-                    id % 2 == 0 ? "lg:text-end" : " "
+                    id % 2 == 0 ? "lg:text-jutify" : " "
                   } w-3/4 text-white text-lg text-justify`}
                   style={pop.style}
                 >
