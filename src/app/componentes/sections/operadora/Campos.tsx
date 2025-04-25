@@ -31,7 +31,7 @@ export default function Campos() {
       id: 4,
       nombre: "Chimen Aike",
       descripcion: campos.chimenaike,
-      imagen: "/chimenaike.png",
+      imagen: "/chimenaike.jpg",
       direc: "chimenaike",
     },
     {
@@ -85,7 +85,7 @@ export default function Campos() {
                 <p
                   className={`${
                     id % 2 == 0 ? "lg:text-end" : " "
-                  } w-3/4 text-white text-lg`}
+                  } w-3/4 text-white text-lg text-justify`}
                   style={pop.style}
                 >
                   {card.descripcion}
@@ -131,7 +131,7 @@ export default function Campos() {
                 <p
                   className={`${
                     id % 2 == 0 ? "lg:text-end" : " "
-                  } w-3/4 text-white text-lg`}
+                  } w-3/4 text-white text-lg text-justify`}
                   style={pop.style}
                 >
                   {card.descripcion}

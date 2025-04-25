@@ -18,7 +18,7 @@ export default function Presentacion() {
         </h1>
       </div>
       <div className="flex flex-col lg:flex-row h-2/3 justify-around items-center gap-6">
-        <p className="w-3/4 lg:w-1/3 text-white text-lg" style={pop.style}>
+        <p className="w-3/4 lg:w-1/3 text-white text-lg text-justify" style={pop.style}>
           {language=='en'?'We are a leading company in the comprehensive management of oil fields, dedicated to enhancing the operational efficiency and profitability of each project.':"Somos una empresa líder en el gerenciamiento integral de yacimientos petroleros, dedicados a potenciar la eficiencia operativa y la rentabilidad de cada proyecto."}
           <br />
           <br />

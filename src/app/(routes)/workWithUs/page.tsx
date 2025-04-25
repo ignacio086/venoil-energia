@@ -4,7 +4,7 @@ import ButtonCv from "@/app/componentes/sections/workWithUs/ButtonCv";
 
 export default function WorkWithUs() {
   return (
-    <section className="bg-azul text-white">
+    <section className="bg-azul text-white text-justify">
       <div className="relative w-screen h-screen flex items-center bg-gradient-to-r from-verde to-azul">
         <div className="flex w-full h-full">
           <div className="w-1/2 flex flex-col justify-center px-16">
@@ -38,7 +38,7 @@ export default function WorkWithUs() {
                 1
               </span>
             </div>
-            <div className="w-1/2 pl-4">
+            <div className="w-1/2 pr-4">
               <p className="text-white">
                 Primero descarga{" "}
                 <a href="FormatoCVVENOIL.docx" className="text-verde">
@@ -64,7 +64,7 @@ export default function WorkWithUs() {
                 3
               </span>
             </div>
-            <div className="w-1/2 pl-4">
+            <div className="w-1/2 pr-6">
               <p className="text-white">
                 Cárgalo a través del botón "Enviar Curriculum" y ¡Postúlate!
               </p>

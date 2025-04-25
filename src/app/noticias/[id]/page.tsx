@@ -10,7 +10,7 @@ export default function Operadora({ params }: { params: { id: string } }) {
     return e.id == params.id;
   });
   return (
-    <article className="w-screen flex text-white flex-col gap-12 p-12 lg:p-24 items-center justify-center">
+    <article className="w-screen flex text-white flex-col text-justify gap-12 p-12 lg:p-24 items-center justify-center">
       <header>
         <h1 style={popt.style} className="text-5xl text-center">
           {noticia[0].titulo}

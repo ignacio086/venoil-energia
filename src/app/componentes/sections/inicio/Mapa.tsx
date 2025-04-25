@@ -14,7 +14,7 @@ export default function Mapa() {
           <motion.div initial={{backgroundColor:'#D9D9D9'}} animate={{backgroundColor:['#54BB5A','#54BB5A','#fff','#54BB5A','#54BB5A']}} transition={{repeat:Infinity,duration:5,delay:0.4}}  className="hidden lg:block lg:w-1 lg:h-72 rounded-2xl"></motion.div>
         </div>
 
-        <div className="font-medium text-venoil-gray">
+        <div className="font-medium text-venoil-gray text-justify">
           <h1 className="text-verde text-3xl font-semibold py-4">
             {language == "en"
               ? "Our Presence in the Country"
