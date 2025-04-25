@@ -254,7 +254,7 @@ export default function InteractMap() {
           style={{
             top: popoverPosition.y,
             left: popoverPosition.x,
-            transform: "translate(-50%, -100%)",
+            transform: "translate(-10%, -100%)",
           }}
         >
           <div className="flex justify-between items-center px-2 py-1 rounded-t-lg bg-[#49994E]">
