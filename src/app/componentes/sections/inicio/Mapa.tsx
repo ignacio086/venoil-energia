@@ -4,8 +4,8 @@ import * as motion from "motion/react-client";
 export default function Mapa() {
   const { language, toggleLanguage } = useLanguage();
   return (
-    <section className="p-4">
-      <div className="flex flex-col lg:flex-row items-center justify-center pl-12 lg:pl-0 gap-20">
+    <section className="p-4 bg-azul">
+      <div className="flex flex-col bg-azul lg:flex-row items-center justify-center pl-12 lg:pl-0 gap-20">
         <InteractMap />
 
         <div>

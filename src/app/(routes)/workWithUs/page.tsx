@@ -3,19 +3,19 @@
 export default function WorkWithUs() {
   return (
     <section className="bg-azul text-white text-justify">
-      <div className="relative w-screen h-screen flex items-center bg-gradient-to-r from-verde to-azul">
-        <div className="flex w-full h-full">
-          <div className="w-1/2 flex flex-col justify-center px-16">
-            <h1 className="text-6xl text-white mb-2">Trabaja con</h1>
-            <h2 className="text-8xl text-white font-bold mb-4">Nosotros</h2>
-            <p className="text-white text-lg">
+      <div className="relative w-screen h-screen flex items-center bg-gradient-to-r from-verde p-6 to-azul">
+        <div className="flex flex-col lg:flex-row w-full h-full">
+          <div className="w-screen lg:w-1/2 flex flex-col justify-center px-16">
+            <h1 className="text-2xl lg:text-6xl text-white mb-2">Trabaja con</h1>
+            <h2 className="text-3xl lg:text-8xl text-white font-bold mb-4">Nosotros</h2>
+            <p className="text-white text-xs lg:text-lg">
               En Venoil Energía, nuestro recurso humano es nuestro principal
               activo. Contamos con personal altamente capacitado, comprometido
               con la excelencia y la calidad. Fomentamos un ambiente que impulsa
               el desarrollo del potencial de cada colaborador.
             </p>
           </div>
-          <div className="w-1/2 flex justify-center items-center">
+          <div className="w-full lg:w-1/2 flex justify-center items-center">
             <img
               src="trab.png"
               alt=""
@@ -28,11 +28,11 @@ export default function WorkWithUs() {
           <img src="isotipo.png" alt="Marca de agua" className="w-24" />
         </div>
       </div>
-      <div className="w-full flex flex-col items-center my-16 bg-azul">
-        <h3 className="text-white text-xl mb-4 font-bold">
+      <div className="w-full flex flex-col items-center my-16 p-2 bg-azul">
+        <h3 className="text-white text-lg lg:text-xl mb-4 font-bold">
           Para postularte, deberás completar el siguiente formulario:
         </h3>
-        <div className="relative w-1/2">
+        <div className="text-xs lg:text-lg relative w-full lg:w-1/2">
           <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-2 rounded-full bg-blue-900"></div>
           <div className="mb-8 p-10">
             <div className="w-1/2 flex justify-end pr-4">
@@ -50,7 +50,7 @@ export default function WorkWithUs() {
               </p>
             </div>
           </div>
-          <div className="mb-8 p-10">
+          <div className="mb-8 pl-20">
             <div className="-w-1/2 flex justify-center pl-20">
               <span className="bg-white text-blue-900 rounded-full w-12 h-12 flex items-center justify-center border-2 border-blue-900 text-xl">
                 2

@@ -2,7 +2,6 @@
 import { useLanguage } from "@/app/context/LanguageContext";
 import { ButtonR } from "../../ButtonR";
 import { popt } from "@/app/fonts/Fonts";
-import MapaN from "../mapanew";
 export default function Presentacion() {
   const { language, toggleLanguage } = useLanguage();
   return (

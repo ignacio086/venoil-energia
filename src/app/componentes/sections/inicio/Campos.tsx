@@ -58,7 +58,7 @@ export default function Campos() {
     },
   ];
   return (
-    <section className="w-screen h-auto flex flex-col items-center justify-center p-2 lg:p-24 gap-2 lg:gap-5 ">
+    <section className="w-screen h-auto flex flex-col bg-azul items-center justify-center p-2 lg:p-24 gap-2 lg:gap-5 ">
       <h1 className=" text-xl lg:text-4xl text-verde mb-12" style={popt.style}>Campos Operados</h1>
       <div className="grid grid-cols-1 lg:grid-cols-3 w-full h-auto gap-12 lg:gap-5">
         {cards.map((y, index) => {
