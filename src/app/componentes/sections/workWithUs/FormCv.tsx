@@ -1,98 +1,54 @@
-'use client';
+import { handleForm } from "./action";
 
-import { useState } from 'react';
-
-export default function JobApplicationForm() {
-  const [form, setForm] = useState({
-    nombre: '',
-    apellido: '',
-    cargo: '',
-    descripcion: '',
-    cv: null as File | null,
-  });
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
-    setForm({ ...form, [name]: value });
-  };
-
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0] || null;
-    setForm({ ...form, cv: file });
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-
-    // Enviar datos (ejemplo básico)
-    const data = new FormData();
-    data.append('nombre', form.nombre);
-    data.append('apellido', form.apellido);
-    data.append('cargo', form.cargo);
-    data.append('descripcion', form.descripcion);
-    if (form.cv) data.append('cv', form.cv);
-
-    fetch('/api/submit', {
-      method: 'POST',
-      body: data,
-    })
-      .then(() => alert('Formulario enviado'))
-      .catch(() => alert('Error al enviar'));
-  };
-
+export default function FormCV() {
   return (
-    <form onSubmit={handleSubmit} className="max-w-md mx-auto p-4 border rounded-lg shadow-md space-y-4">
-      <h1 className="text-xl font-bold text-center">Postulación</h1>
-
+    <form
+      action={handleForm}
+      method="POST"
+      className="flex flex-col gap-4 p-4 max-w-xl mx-auto"
+    >
+      <p>Ingrese su nombre y apellido</p>
       <input
-        name="nombre"
-        placeholder="Nombre"
-        value={form.nombre}
-        onChange={handleChange}
-        className="w-full p-2 border rounded"
+        type="text"
+        name="name"
+        placeholder="Nombre y apellido"
         required
+        className="border p-2 rounded text-black"
       />
-
+      <p>Ingrese el asunto de su mensaje</p>
       <input
-        name="apellido"
-        placeholder="Apellido"
-        value={form.apellido}
-        onChange={handleChange}
-        className="w-full p-2 border rounded"
+        type="text"
+        name="subject"
+        placeholder="Asunto"
         required
+        className="border p-2 rounded text-black"
       />
-
+      <p>Ingrese su correo de contacto</p>
       <input
-        name="cargo"
-        placeholder="Cargo al que postula"
-        value={form.cargo}
-        onChange={handleChange}
-        className="w-full p-2 border rounded"
+        type="email"
+        name="email"
+        placeholder="Correo electrónico"
         required
+        className="border p-2 rounded text-black"
       />
-
-      <textarea
-        name="descripcion"
-        placeholder="Descripción"
-        value={form.descripcion}
-        onChange={handleChange}
-        className="w-full p-2 border rounded"
-        required
-      />
-
+      <p>Adjunte su Curriculum vitae (Max. 10MB)</p>
       <input
         type="file"
+        name="cv"
         accept=".pdf,.doc,.docx"
-        onChange={handleFileChange}
-        className="w-full"
         required
+        className="border p-2 rounded text-black"
       />
-
+      <p className="text-center">
+        (si necesita un curriculum de ejemplo, haga click aquí)
+      </p>
       <button
         type="submit"
-        className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition"
+        className="relative px-6 py-2 transition-all bg-azul hover:bg-white rounded-full mt-4 overflow-hidden border-2 border-verde"
       >
-        Enviar
+        <span className="relative bg-clip-text text-transparent bg-gradient-to-r from-verde to-verd">
+          Enviar curriculum
+        </span>
       </button>
     </form>
   );

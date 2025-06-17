@@ -50,3 +50,10 @@ export interface Positionpop {
   x: number;
   y: number;
 }
+
+export interface EmailParams{
+
+  asunto:string,
+  remitente:{email:string,name:string}[],
+  cv:File
+}
