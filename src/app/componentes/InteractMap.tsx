@@ -300,10 +300,7 @@ export default function InteractMap() {
           </div>
           <CardContent className="p-3">
             <ul className="text-sm">
-              <Link href={`/operadora#condor`} className="flex hover:text-[#005604] items-center">
-                <BsCaretRightFill className="mr-1" /> Cóndor
-              </Link>
-              <Link href={`/operadora#maggie`} className="flex hover:text-[#005604] items-center">
+            <Link href={`/operadora#maggie`} className="flex hover:text-[#005604] items-center">
                 <BsCaretRightFill className="mr-1" /> Estancia La Maggie
               </Link>
               <Link href={`/operadora#salto`} className="flex hover:text-[#005604] items-center">
@@ -311,6 +308,9 @@ export default function InteractMap() {
               </Link>
               <Link href={`/operadora#chimenaike`} className="flex hover:text-[#005604] items-center">
                 <BsCaretRightFill className="mr-1" /> Chimen Aike
+              </Link>
+              <Link href={`/operadora#condor`} className="flex hover:text-[#005604] items-center">
+                <BsCaretRightFill className="mr-1" /> Cóndor
               </Link>
             </ul>
           </CardContent>

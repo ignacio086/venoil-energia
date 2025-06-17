@@ -22,7 +22,7 @@ export default function Presidente() {
             );
           })}
         </div>
-        <Image src="/gustavonaves.jpg" width={0} height={0} className="rounded-ss-3xl" sizes="100vw" style={{ width: "50%", height: "auto" }}  alt="a" />
+        <Image src="/gustavonaves.jpg" width={0} height={0} className="rounded-ss-3xl" sizes="100vw" style={{ width: "40%", height: "auto" }}  alt="a" />
       </div>
     </div>
   );

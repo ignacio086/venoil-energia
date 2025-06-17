@@ -25,8 +25,8 @@ export default function Presentacion() {
           Innovando para un futuro <span className="text-verde">sostenible.</span>
         </p>
         <div className="w-full h-full flex item-center justify-center gap-5">
-          <ButtonR texto={language=='en'?'SEE MORE':'VER MÁS'} color="blanco" dir="/operadora" />
-          <ButtonR texto={language=='en'?'VISIT':'VISITAR'} color="blanco" dir="/gestion" />
+          <ButtonR texto={language=='en'?'OUR OIL OPERATIONS':'NUESTRAS OPERACIONES'} color="blanco" dir="/operadora" />
+          <ButtonR texto={language=='en'?'GET TO KNOW US':'CONOCENOS'} color="blanco" dir="/gestion" />
         </div>
       </div>
     </main>

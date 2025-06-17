@@ -1,5 +1,12 @@
 const textos = {
   es: {
+    nav:{
+      inicio:"Inicio",
+      operadora:"Nuestras Operaciones",
+      gestion:"Sobre Nosotros",
+      trabaja:"Trabaja en Venoil"
+
+    },
     inicio: {
       presidente: [
         "Presidente de Venoil Energía con 23 años en el gerenciamiento de proyectos de gas y petróleo en diferentes campos de Argentina.",
@@ -142,6 +149,13 @@ const textos = {
     },
   },
   en: {
+    nav:{
+      inicio:"Home",
+      operadora:"Our Oil Operations",
+      gestion:"About Us",
+      trabaja:"Work at Venoil"
+
+    },
     inicio: {
       presidente: [
         "President of Venoil Energía with 23 years of experience in managing gas and oil projects in various fields in Argentina.",

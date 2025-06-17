@@ -50,7 +50,7 @@ export default function Valores() {
   ];
   return (
     <div
-      className={`w-screen h-screen bg-fixed bg-[url("/1737451360116.jpeg")] bg-cover`}
+      className={`w-screen h-screen bg-fixed bg-[url("/fdnbn.jpg")] bg-cover`}
     >
       <div className="bg-white/50 w-full flex flex-col items-center justify-center h-full">
         <h1 style={popt.style} className=" text-lg lg:text-4xl mt-12 text-azul">

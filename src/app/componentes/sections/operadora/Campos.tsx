@@ -24,7 +24,7 @@ export default function Campos() {
       id: 3,
       nombre: "Cacheuta",
       descripcion: campos.cacheuta,
-      imagen: "/ayb.jpg",
+      imagen: "/pozo84.jpg",
       direc: "cacheuta",
     },
     {
@@ -38,21 +38,21 @@ export default function Campos() {
       id: 5,
       nombre: "Cóndor",
       descripcion: campos.condor,
-      imagen: "/1737451360116.jpeg",
+      imagen: "/1737451360116.jpg",
       direc: "condor",
     },
     {
       id: 6,
       nombre: "Cañadon Salto",
       descripcion: campos.canadonsalto,
-      imagen: "/truck2.png",
+      imagen: "/truck2.jpg",
       direc: "salto",
     },
     {
       id: 7,
       nombre: "Estancia La Maggie",
       descripcion: campos.maggie,
-      imagen: "/Imagen de WhatsApp 2025-02-12 a las 15.27.58_c98b8082.jpg",
+      imagen: "/ELMTan.png",
       direc: "maggie",
     },
   ];

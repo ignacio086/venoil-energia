@@ -27,13 +27,13 @@ export default function Mapa() {
           </p>
 
           <div className="flex-col space-y-2 text-white">
-            <p className="text-xs lg:text-lg">• El Manzano (Malargüe, Mendoza)</p>
             <p className="text-xs lg:text-lg">• Piedras Coloradas (Lujan de Cuyo, Mendoza)</p>
             <p className="text-xs lg:text-lg">• Cacheuta (Lujan de Cuyo, Mendoza)</p>
-            <p className="text-xs lg:text-lg">• Cañadón Salto (Río Gallegos, Santa Cruz)</p>
-            <p className="text-xs lg:text-lg">• Cóndor (Río Gallegos, Santa Cruz)</p>
+            <p className="text-xs lg:text-lg">• El Manzano (Malargüe, Mendoza)</p>
             <p className="text-xs lg:text-lg">• La Maggie (Río Gallegos, Santa Cruz)</p>
+            <p className="text-xs lg:text-lg">• Cañadón Salto (Río Gallegos, Santa Cruz)</p>
             <p className="text-xs lg:text-lg">• Chimen Aike (Río Gallegos, Santa Cruz)</p>
+            <p className="text-xs lg:text-lg">• Cóndor (Río Gallegos, Santa Cruz)</p>
           </div>
 
           <p className="py-3 text-xs lg:text-lg text-white">

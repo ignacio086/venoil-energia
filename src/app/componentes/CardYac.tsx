@@ -19,7 +19,7 @@ export default function CardYac({
       } bg-white shadow-[rgba(120,_120,_120,_120.8)_0px_3px_20px]`}
     >
       <div
-        className={` bg-cover bg-center w-full h-full lg:w-full lg:h-full rounded-md`}
+        className={` bg-cover bg-right w-full h-full lg:w-full lg:h-full rounded-md`}
         style={{ backgroundImage: `url("${imagen}")` }}
       ></div>
       <div className=" p-2 w-full gap-2 flex flex-col items-center justify-center">
