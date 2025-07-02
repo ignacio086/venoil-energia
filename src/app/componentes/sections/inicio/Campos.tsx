@@ -3,6 +3,7 @@ import CardYac from "../../CardYac";
 import { Yacimiento } from "@/app/types/tipos";
 import textos from "@/lib/textos";
 import { useLanguage } from "@/app/context/LanguageContext";
+import Typewriter from "../../TypeWriter";
 export default function Campos() {
   const { language } = useLanguage();
   const campos = textos[language].inicio.campos;
@@ -59,7 +60,7 @@ export default function Campos() {
   ];
   return (
     <section className="w-screen h-auto flex flex-col bg-azul items-center justify-center p-2 lg:p-24 gap-2 lg:gap-5 ">
-      <h1 className=" text-xl lg:text-4xl text-verde mb-12" style={popt.style}>Campos Operados</h1>
+      <Typewriter text="Campos Operados" className=" text-xl lg:text-4xl text-verde mb-12" speed={150}/>
       <div className="grid grid-cols-1 lg:grid-cols-3 w-full h-auto gap-12 lg:gap-5">
         {cards.map((y, index) => {
           const isLastRowSingle =

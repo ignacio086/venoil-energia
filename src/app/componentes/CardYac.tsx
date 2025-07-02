@@ -1,7 +1,8 @@
+'use client'
 import { pop, popt } from "../fonts/Fonts";
 import { Yacimiento } from "../types/tipos";
 import { ButtonR } from "./ButtonR";
-
+import * as motion from "motion/react-client"
 export default function CardYac({
   id,
   nombre,
@@ -11,7 +12,9 @@ export default function CardYac({
   direc
 }: Yacimiento) {
   return (
-    <div
+    <motion.div
+      initial={{scale:1}}
+      whileHover={{scale:1.1}}
       key={id}
       style={pop.style}
       className={`h-full rounded-xl flex  items-center ${id%2==0?'flex-row':"flex-row-reverse lg:flex-row"} justify-center text-xs lg:text-lg w-full gap-2 ${
@@ -27,6 +30,6 @@ export default function CardYac({
         <p className=" text-xs line-clamp-3">{descripcion}</p>
         <ButtonR texto="Leer mas" color="verde" dir={`/operadora#${direc}`} />
       </div>
-    </div>
+    </motion.div>
   );
 }

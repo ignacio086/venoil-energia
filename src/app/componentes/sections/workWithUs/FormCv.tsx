@@ -1,6 +1,9 @@
+'use client'
+import { useState } from "react";
 import { handleForm } from "./action";
 
 export default function FormCV() {
+  const [enviado,NoEnviado] = useState('invisible')
   return (
     <form
       action={handleForm}
@@ -40,16 +43,20 @@ export default function FormCV() {
         className="border p-2 rounded text-black"
       />
       <p className="text-center">
-        (si necesita un curriculum de ejemplo, haga click aquí)
+        (si necesita un curriculum de ejemplo, haga click <a href="./FormatoCVVENOIL.docx" className="text-verde">aquí</a>)
       </p>
       <button
         type="submit"
+        onClick={()=>{
+          NoEnviado('visible')
+        }}
         className="relative px-6 py-2 transition-all bg-azul hover:bg-white rounded-full mt-4 overflow-hidden border-2 border-verde"
       >
         <span className="relative bg-clip-text text-transparent bg-gradient-to-r from-verde to-verd">
           Enviar curriculum
         </span>
       </button>
+      <p className={`${enviado} text-center`}>Su curriculum fue enviado con éxito</p>
     </form>
   );
 }

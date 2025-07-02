@@ -18,7 +18,7 @@ export default function WorkWithUs() {
           </div>
           <div className="w-full lg:w-1/2 flex justify-center items-center">
             <img
-              src="trab.png"
+              src="Espmen.jpg"
               alt=""
               className="object-cover rounded-full w-3/4 h-3/4 "
             />

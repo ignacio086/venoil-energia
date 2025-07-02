@@ -11,13 +11,6 @@ export async function handleForm(formData:FormData){
     if(!name || !email || !cv){
         return alert("Rellenar todos los campos")
     }
-    console.log({
-        name,
-        subject,
-        email,
-        cv
-    }
-    )
     await SendEmail({
         asunto: subject as string,
         remitente:[
