@@ -12,6 +12,7 @@ export default function Presentacion() {
         className="w-screen left-0 z-0 object-cover h-[120vh] fill absolute"
         autoPlay
         loop
+        playsInline
         muted
       ></video>
       <div className="absolute w-screen h-[120vh] bg-gradient-to-b from-black/40 from-95% to-white/90 dark:to-azul/90"></div>
